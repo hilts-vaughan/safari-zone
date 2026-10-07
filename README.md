@@ -23,6 +23,14 @@ select a successful run, and download its `SafariZone-<commit SHA>` artifact.
 Extract that artifact download to get the installable `SafariZone.zip`.
 Artifacts are retained for 30 days. The workflow can also be run manually.
 
+To publish a release, open **Actions → Package Safari Zone → Run workflow**.
+Leave **Publish a GitHub Release with SafariZone.zip** checked and run it.
+After the tests and packaging succeed, the workflow creates a uniquely tagged
+GitHub Release for the selected commit with `SafariZone.zip` attached directly.
+Release downloads do not expire after the artifact's 30-day retention period.
+Uncheck the option for an artifact-only manual run; ordinary pushes publish only
+artifacts.
+
 This packages the checked-in export; it does not regenerate the mod from source.
 After changing source assets or scene-generation code, run the local release
 builder and commit the updated `dist/Touma/SafariZone` files before pushing.

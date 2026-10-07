@@ -3,6 +3,11 @@ name: Package Safari Zone
 on:
   push:
   workflow_dispatch:
+    inputs:
+      make_release:
+        description: Publish a GitHub Release with SafariZone.zip
+        type: boolean
+        default: true
 
 permissions:
   contents: read
@@ -32,3 +37,27 @@ jobs:
           if-no-files-found: error
           compression-level: 0
           retention-days: 30
+
+  release:
+    if: github.event_name == 'workflow_dispatch' && inputs.make_release
+    needs: package
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Download tested ZIP
+        uses: actions/download-artifact@v4
+        with:
+          name: SafariZone-${{ github.sha }}
+          path: release
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          tag="release-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          gh release create "$tag" release/SafariZone.zip \
+            --target "$GITHUB_SHA" \
+            --title "Safari Zone ${GITHUB_SHA:0:7}" \
+            --generate-notes
