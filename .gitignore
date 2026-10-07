@@ -3,3 +3,5 @@ __pycache__/
 editor/SceneEditor/.godot/
 test-results/
 docs/
+dist/SafariZone.zip
+dist/SafariZone.zip.tmp
