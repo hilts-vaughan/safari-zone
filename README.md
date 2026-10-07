@@ -14,7 +14,21 @@ The reserve uses Flock Around's native mod system and base-game assets. Wetlands
 3. Launch the game, accept its modding prompt, and restart if requested. Enable the local mods directory in **Manage Mods**.
 4. Create a game and select **Safari Zone**.
 
-## Rebuild
+## Automated ZIP downloads
+
+Every push runs the **Package Safari Zone** GitHub Action, checks the repository's
+regression tests, and packages the exported payload in `dist/Touma/SafariZone`.
+Open the [Actions page](https://github.com/hilts-vaughan/safari-zone/actions),
+select a successful run, and download its `SafariZone-<commit SHA>` artifact.
+Extract that artifact download to get the installable `SafariZone.zip`.
+Artifacts are retained for 30 days. The workflow can also be run manually.
+
+This packages the checked-in export; it does not regenerate the mod from source.
+After changing source assets or scene-generation code, run the local release
+builder and commit the updated `dist/Touma/SafariZone` files before pushing.
+Full generation and scene export require the installed game pack and Godot .NET.
+
+## Local rebuild
 
 There are tools provided to help with basic tasks:
 

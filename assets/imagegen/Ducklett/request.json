@@ -1,5 +1,5 @@
 {
   "prompt": "Ducklett Pok\u00e9mon, a cute rounded pale blue duckling, fluffy blue chest tuft, yellow flat duck bill and yellow webbed feet, short blue wings. Create a sprite component board for a Flock Around mod: smooth rounded flat-color cartoon, simple clean silhouettes, opaque pastel colors, minimal shading, no heavy outlines. Square TRANSPARENT canvas, exactly THREE BY THREE equal cells, generous empty gutters, no labels or borders. Top row: detached head LEFT profile facing left, detached head front, detached head back. Middle row: headless LEFT-profile body resting/folded wings, same headless body wings raised in flight, same headless body wings lowered in flight. Bottom row: headless front-facing resting body, headless back-facing resting body, complete assembled left-profile character reference. All five bodies must have NO head or eyes, just a short neck attachment. Consistent anatomy, sizes, palette across views. No scenery, cast shadows, text, checkerboard pattern or clipped limbs. Large gaps separate each component.",
   "status": "generated",
-  "source": "/home/touma/.codex/generated_images/01a0ffe4-008a-7f13-aa43-e7f4a60d83f5/exec-49d64f63-4e32-41d9-9cab-136848a7dcd8.png"
+  "source": "exec-49d64f63-4e32-41d9-9cab-136848a7dcd8.png"
 }
