@@ -1,0 +1,6 @@
+{
+  "method": "built-in Imagegen",
+  "status": "generated",
+  "prompt": "Create Ledyba Pokémon game sprite components in a smooth rounded flat-color cartoon style for Flock Around. Anatomically recognizable small ladybug: red head with yellow lower jaw, large white eyes with black pupils, black antennae, oval yellow torso under domed red wing covers with FIVE black spots, six black limbs ending in white mitten-like hands. Flight wings are pale translucent insect wings beneath the opened red covers, not bird feathers. Transparent square canvas, regular 3 by 3 grid with generous gutters. Top row: separate head left profile, separate head front, separate head back, including antennae. Middle row: headless left-profile body resting with closed spotted red covers, same headless body flying with red covers opened and flight wings raised, same headless body flying with flight wings lowered. Bottom row: headless front body resting, headless back body resting showing the five black spots, complete assembled left-profile character reference. Body components have no primary head, eyes, jaw or antennae, only short yellow neck attachment and all six limbs where visible. Same sizes and palette across views. All pieces fully in their cells, no clipping, text, borders, scenery, glow or cast shadow; clean solid shapes, minimal shading.",
+  "transparent_background": true
+}

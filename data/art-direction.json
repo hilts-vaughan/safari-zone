@@ -1,0 +1,166 @@
+{
+  "reviewed_on": "2026-10-03",
+  "scope": "Original Gen 1\u20133 forms; visual simplification for Flock Around, not literal Pok\u00e9dex height scaling.",
+  "species": {
+    "Pidgey": {
+      "height_m": 0.3,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Pidgey_(Pok%C3%A9mon)",
+      "design_notes": "Small, plump bird; cream face and belly, three short crest tufts, angular black cheek markings, stubby pink bill, short brown tail."
+    },
+    "Pidgeotto": {
+      "height_m": 1.1,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Pidgeotto_(Pok%C3%A9mon)",
+      "design_notes": "Raptor proportions, pink-red swept crest, cream underside and flight feathers, black cheek mask, alternating red and yellow tail feathers."
+    },
+    "Spearow": {
+      "height_m": 0.3,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Spearow_(Pok%C3%A9mon)",
+      "design_notes": "Rough, bristly brown head, narrow eyes, black back, pink-red wings with pale tips, striped beige underside and short hooked pink bill."
+    },
+    "Fearow": {
+      "height_m": 1.2,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Fearow_(Pok%C3%A9mon)",
+      "design_notes": "Small head, long pink spear bill, slender vulture-like neck, red comb, cream shaggy neck-base collar and broad cream-tipped wings."
+    },
+    "Psyduck": {
+      "height_m": 0.8,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Psyduck_(Pok%C3%A9mon)",
+      "design_notes": "Round yellow biped, blank wide eyes with tiny pupils, exactly three black hairs, oversized flat cream bill, stubby tail and webbed feet."
+    },
+    "Golduck": {
+      "height_m": 1.7,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Golduck_(Pok%C3%A9mon)",
+      "design_notes": "Lean blue swimmer with a long rudder tail, four head horns, red forehead jewel and eyes, cream bill and clawed webbed hands and feet."
+    },
+    "Farfetch'd": {
+      "height_m": 0.8,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Farfetch'd_(Pok%C3%A9mon)",
+      "design_notes": "Light brown duck, white belly, three-feather crest, black V brow, flat yellow bill, large grasping wings and a clearly held green leek."
+    },
+    "Doduo": {
+      "height_m": 1.4,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Doduo_(Pok%C3%A9mon)",
+      "design_notes": "Two equally sized fluffy brown heads on long slender necks; shaggy round body, long running legs, tiny almost invisible wings and sharp bills."
+    },
+    "Dodrio": {
+      "height_m": 1.8,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Dodrio_(Pok%C3%A9mon)",
+      "design_notes": "Three equally sized heads, black V crests, slender necks, shaggy brown upper body, black lower body, long legs and three pale-red tail feathers."
+    },
+    "Articuno": {
+      "height_m": 1.7,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Articuno_(Pok%C3%A9mon)",
+      "design_notes": "Sky-blue graceful bird, three dark-blue diamond crest feathers, red eyes, gray bill and legs, white downy chest and a very long ribbon tail."
+    },
+    "Zapdos": {
+      "height_m": 1.6,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Zapdos_(Pok%C3%A9mon)",
+      "design_notes": "Angular yellow lightning silhouette, spiky head, jagged yellow-and-black wings and tail, triangular masked eyes and a long orange spear bill."
+    },
+    "Moltres": {
+      "height_m": 2,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon)",
+      "design_notes": "Light-yellow body with a thin neck and pointed brown bill; flowing red-orange flame crest, tail and wing edges rather than ordinary red feathers."
+    },
+    "Hoothoot": {
+      "height_m": 0.7,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Hoothoot_(Pok%C3%A9mon)",
+      "design_notes": "Almost spherical brown owl, enormous red eyes with black gear rims and clock-hand brows, cream belly, tiny wings, pink bill and one visible foot."
+    },
+    "Noctowl": {
+      "height_m": 1.6,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Noctowl_(Pok%C3%A9mon)",
+      "design_notes": "Tall brown owl, large cream eyebrow horns, red eyes with black and cream rings, dark triangular breast pattern, broad wings and fan tail."
+    },
+    "Natu": {
+      "height_m": 0.2,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Natu_(Pok%C3%A9mon)",
+      "design_notes": "Tiny green sphere with almond eyes, yellow bill, red single crest and feet, and short yellow-red wings carrying thick black stripes."
+    },
+    "Xatu": {
+      "height_m": 1.5,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Xatu_(Pok%C3%A9mon)",
+      "design_notes": "Tall green totem silhouette, almond eyes, hooked bill, two long red crest feathers, cloak-like white wings with black/red tips and patterned body."
+    },
+    "Murkrow": {
+      "height_m": 0.5,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Murkrow_(Pok%C3%A9mon)",
+      "design_notes": "Dark crow with three-tuft witch-hat crest, crooked yellow bill, red eyes, jagged neck collar, broom tail and red band at tail base."
+    },
+    "Delibird": {
+      "height_m": 0.9,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Delibird_(Pok%C3%A9mon)",
+      "design_notes": "Red upright penguin-like body, white face and chest ruff, paired white three-point brows, black eye markings, yellow feet and large white sack-tail."
+    },
+    "Skarmory": {
+      "height_m": 1.7,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Skarmory_(Pok%C3%A9mon)",
+      "design_notes": "Lean armored silver bird, elongated steel-blue neck/legs/tail, triangular head crest, yellow eye, toothed spear bill, articulated plates and red underwing blades."
+    },
+    "Lugia": {
+      "height_m": 5.2,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Lugia_(Pok%C3%A9mon)",
+      "design_notes": "Silver-white streamlined dragon-bird, long neck, swept-back head point, dark blue pointed eye marks, pale-blue underside, dorsal plates and five-digit hand-wings."
+    },
+    "Ho-Oh": {
+      "height_m": 3.8,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pok%C3%A9mon)",
+      "design_notes": "Large red/gold phoenix, yellow feather crest and fan tail, green neck stripe and wing tips, white underside, red ringed eyes and dark talons."
+    },
+    "Torchic": {
+      "height_m": 0.4,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Torchic_(Pok%C3%A9mon)",
+      "design_notes": "Orange fluffy chick with a round body and head, orange-yellow flame crest, tiny downy yellow wings, short bill and thin pale-yellow legs."
+    },
+    "Combusken": {
+      "height_m": 0.9,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Combusken_(Pok%C3%A9mon)",
+      "design_notes": "Upright yellow/orange chicken, orange three-point crest, orange waist chevron, powerful feathered thighs, long clawed arms and gray scaly lower legs."
+    },
+    "Blaziken": {
+      "height_m": 1.9,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Blaziken_(Pok%C3%A9mon)",
+      "design_notes": "Tall red martial rooster, small V-crested red face, flowing cream mane framing chest, blue eyes, gray clawed hands and shaggy yellow lower legs."
+    },
+    "Taillow": {
+      "height_m": 0.3,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Taillow_(Pok%C3%A9mon)",
+      "design_notes": "Compact navy swallow, pointed red forehead-to-breast patch, white belly, short yellow bill, dark feet and short two-pronged pointed tail."
+    },
+    "Swellow": {
+      "height_m": 0.7,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Swellow_(Pok%C3%A9mon)",
+      "design_notes": "Lean navy swallow, swept crest, separated red face and breast patches, white underside, red feet, tapered wings and two long red-tipped tail streamers."
+    },
+    "Wingull": {
+      "height_m": 0.6,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Wingull_(Pok%C3%A9mon)",
+      "design_notes": "Neckless white gull with a large head, slit eyes, orange black-tipped bill, extremely long narrow blue-banded wings and blue-tipped fan tail."
+    },
+    "Pelipper": {
+      "height_m": 1.2,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Pelipper_(Pok%C3%A9mon)",
+      "design_notes": "Head and immense yellow pouch dominate the body; white rear body, blue cap and feet, broad three-blue-tipped wings and black slit eyes."
+    },
+    "Swablu": {
+      "height_m": 0.4,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Swablu_(Pok%C3%A9mon)",
+      "design_notes": "Round blue bird with almost no separate neck, two slender blue head plumes, tiny white bill and feet, large cotton-white wings and two tail points."
+    },
+    "Altaria": {
+      "height_m": 1.1,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Altaria_(Pok%C3%A9mon)",
+      "design_notes": "Long graceful blue neck, small head, white cheek patches and bill, two long blue streamers, large cloud-white wing/body masses and five blue tail feathers."
+    },
+    "Butterfree": {
+      "height_m": 1.1,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Butterfree",
+      "design_notes": "Purple two-segment butterfly with black antennae, red compound eyes, blue snout and limbs, broad white wings with black veins. User-requested insect exception to original bird roster."
+    },
+    "Ledyba": {
+      "height_m": 1.0,
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Ledyba_(Pok%C3%A9mon)",
+      "design_notes": "Red ladybug with five black cover spots, yellow torso and jaw, large white eyes, black antennae and six black limbs with white glove-like ends. Transparent insect wings beneath the covers."
+    }
+  }
+}

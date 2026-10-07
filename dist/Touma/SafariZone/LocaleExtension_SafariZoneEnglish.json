@@ -1,0 +1,429 @@
+{
+  "source_language": 632594830,
+  "ids_to_translations": [
+    {
+      "id": 2752076626,
+      "translation": "Southwest Grasslands"
+    },
+    {
+      "id": 4147630203,
+      "translation": "Southeast Wetlands"
+    },
+    {
+      "id": 159433742,
+      "translation": "Northwest Forest"
+    },
+    {
+      "id": 845296157,
+      "translation": "Northeast Highlands"
+    },
+    {
+      "id": 992330081,
+      "translation": "Rare visitor"
+    },
+    {
+      "id": 2913725800,
+      "translation": "Pond regular"
+    },
+    {
+      "id": 2146293448,
+      "translation": "Pidgey"
+    },
+    {
+      "id": 1243785618,
+      "translation": "Pidgey \u2014 Pok\u00e9dex #016. A Pok\u00e9mon-inspired visitor to the Southwest Grasslands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 3695514766,
+      "translation": "Spearow"
+    },
+    {
+      "id": 777008338,
+      "translation": "Spearow \u2014 Pok\u00e9dex #021. A Pok\u00e9mon-inspired visitor to the Southwest Grasslands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 3273948400,
+      "translation": "Fearow"
+    },
+    {
+      "id": 3666348967,
+      "translation": "Fearow \u2014 Pok\u00e9dex #022. A Pok\u00e9mon-inspired visitor to the Northeast Highlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 4232914395,
+      "translation": "Psyduck"
+    },
+    {
+      "id": 14271029,
+      "translation": "Psyduck \u2014 Pok\u00e9dex #054. A Pok\u00e9mon-inspired visitor to the Southeast Wetlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 2794024502,
+      "translation": "Farfetch'd"
+    },
+    {
+      "id": 3205783184,
+      "translation": "Farfetch'd \u2014 Pok\u00e9dex #083. A Pok\u00e9mon-inspired visitor to the Southwest Grasslands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 1008811635,
+      "translation": "Doduo"
+    },
+    {
+      "id": 922999086,
+      "translation": "Doduo \u2014 Pok\u00e9dex #084. A Pok\u00e9mon-inspired visitor to the Southwest Grasslands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 1252566395,
+      "translation": "Dodrio"
+    },
+    {
+      "id": 2179947626,
+      "translation": "Dodrio \u2014 Pok\u00e9dex #085. A Pok\u00e9mon-inspired visitor to the Northeast Highlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 4108166670,
+      "translation": "Zapdos"
+    },
+    {
+      "id": 1974765406,
+      "translation": "Zapdos \u2014 Pok\u00e9dex #145. A Pok\u00e9mon-inspired visitor to the Northeast Highlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 3941982737,
+      "translation": "Hoothoot"
+    },
+    {
+      "id": 832333674,
+      "translation": "Hoothoot \u2014 Pok\u00e9dex #163. A Pok\u00e9mon-inspired visitor to the Northwest Forest. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 1110162403,
+      "translation": "Noctowl"
+    },
+    {
+      "id": 1474749815,
+      "translation": "Noctowl \u2014 Pok\u00e9dex #164. A Pok\u00e9mon-inspired visitor to the Northwest Forest. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 2642378690,
+      "translation": "Natu"
+    },
+    {
+      "id": 133253945,
+      "translation": "Natu \u2014 Pok\u00e9dex #177. A Pok\u00e9mon-inspired visitor to the Northwest Forest. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 1118127161,
+      "translation": "Xatu"
+    },
+    {
+      "id": 2991004739,
+      "translation": "Xatu \u2014 Pok\u00e9dex #178. A Pok\u00e9mon-inspired visitor to the Northwest Forest. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 409441825,
+      "translation": "Murkrow"
+    },
+    {
+      "id": 2397382579,
+      "translation": "Murkrow \u2014 Pok\u00e9dex #198. A Pok\u00e9mon-inspired visitor to the Northwest Forest. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 2270471006,
+      "translation": "Delibird"
+    },
+    {
+      "id": 3285197515,
+      "translation": "Delibird \u2014 Pok\u00e9dex #225. A Pok\u00e9mon-inspired visitor to the Northeast Highlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 31051167,
+      "translation": "Ho-Oh"
+    },
+    {
+      "id": 436225306,
+      "translation": "Ho-Oh \u2014 Pok\u00e9dex #250. A Pok\u00e9mon-inspired visitor to the Northeast Highlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 1172816586,
+      "translation": "Taillow"
+    },
+    {
+      "id": 2430400594,
+      "translation": "Taillow \u2014 Pok\u00e9dex #276. A Pok\u00e9mon-inspired visitor to the Southwest Grasslands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 1828767043,
+      "translation": "Swellow"
+    },
+    {
+      "id": 1864760277,
+      "translation": "Swellow \u2014 Pok\u00e9dex #277. A Pok\u00e9mon-inspired visitor to the Southwest Grasslands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 3544102430,
+      "translation": "Wingull"
+    },
+    {
+      "id": 1127035779,
+      "translation": "Wingull \u2014 Pok\u00e9dex #278. A Pok\u00e9mon-inspired visitor to the Southeast Wetlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 1709075491,
+      "translation": "Pelipper"
+    },
+    {
+      "id": 703667905,
+      "translation": "Pelipper \u2014 Pok\u00e9dex #279. A Pok\u00e9mon-inspired visitor to the Southeast Wetlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 1061539601,
+      "translation": "Swablu"
+    },
+    {
+      "id": 2346922045,
+      "translation": "Swablu \u2014 Pok\u00e9dex #333. A Pok\u00e9mon-inspired visitor to the Northwest Forest. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 3870887819,
+      "translation": "Altaria"
+    },
+    {
+      "id": 120278196,
+      "translation": "Altaria \u2014 Pok\u00e9dex #334. A Pok\u00e9mon-inspired visitor to the Northwest Forest. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 2702687106,
+      "translation": "Butterfree"
+    },
+    {
+      "id": 3661371767,
+      "translation": "Butterfree \u2014 Pok\u00e9dex #012. A Pok\u00e9mon-inspired visitor to the Northwest Forest. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 2184117547,
+      "translation": "Ledyba"
+    },
+    {
+      "id": 3484990620,
+      "translation": "Ledyba \u2014 Pok\u00e9dex #165. A Pok\u00e9mon-inspired visitor to the Northwest Forest. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 2423901563,
+      "translation": "Beautifly"
+    },
+    {
+      "id": 2553601609,
+      "translation": "Beautifly \u2014 Pok\u00e9dex #267. A Pok\u00e9mon-inspired visitor to the Northwest Forest. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 166303100,
+      "translation": "Dustox"
+    },
+    {
+      "id": 2885739363,
+      "translation": "Dustox \u2014 Pok\u00e9dex #269. A Pok\u00e9mon-inspired visitor to the Northwest Forest. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 2863291256,
+      "translation": "Masquerain"
+    },
+    {
+      "id": 857746630,
+      "translation": "Masquerain \u2014 Pok\u00e9dex #284. A Pok\u00e9mon-inspired visitor to the Southeast Wetlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 3645391016,
+      "translation": "Yanma"
+    },
+    {
+      "id": 3664528918,
+      "translation": "Yanma \u2014 Pok\u00e9dex #193. A Pok\u00e9mon-inspired visitor to the Southeast Wetlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 3585113754,
+      "translation": "Combee"
+    },
+    {
+      "id": 3916574868,
+      "translation": "Combee \u2014 Pok\u00e9dex #415. A Pok\u00e9mon-inspired visitor to the Southwest Grasslands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 2241006520,
+      "translation": "Volcarona"
+    },
+    {
+      "id": 2815680037,
+      "translation": "Volcarona \u2014 Pok\u00e9dex #637. A Pok\u00e9mon-inspired visitor to the Northeast Highlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 125181995,
+      "translation": "Chatot"
+    },
+    {
+      "id": 3019665774,
+      "translation": "Chatot \u2014 Pok\u00e9dex #441. A Pok\u00e9mon-inspired visitor to the Southwest Grasslands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 2897341923,
+      "translation": "Honchkrow"
+    },
+    {
+      "id": 539428647,
+      "translation": "Honchkrow \u2014 Pok\u00e9dex #430. A Pok\u00e9mon-inspired visitor to the Northwest Forest. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 3742074178,
+      "translation": "Starly"
+    },
+    {
+      "id": 111234317,
+      "translation": "Starly \u2014 Pok\u00e9dex #396. A Pok\u00e9mon-inspired visitor to the Southwest Grasslands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 1682297746,
+      "translation": "Staravia"
+    },
+    {
+      "id": 1510312465,
+      "translation": "Staravia \u2014 Pok\u00e9dex #397. A Pok\u00e9mon-inspired visitor to the Southwest Grasslands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 1731365882,
+      "translation": "Swanna"
+    },
+    {
+      "id": 1539739960,
+      "translation": "Swanna \u2014 Pok\u00e9dex #581. A Pok\u00e9mon-inspired visitor to the Southeast Wetlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 2901965759,
+      "translation": "Braviary"
+    },
+    {
+      "id": 1519274882,
+      "translation": "Braviary \u2014 Pok\u00e9dex #628. A Pok\u00e9mon-inspired visitor to the Northeast Highlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 3045313666,
+      "translation": "Archeops"
+    },
+    {
+      "id": 937846038,
+      "translation": "Archeops \u2014 Pok\u00e9dex #567. A Pok\u00e9mon-inspired visitor to the Northeast Highlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 2836917218,
+      "translation": "Fletchling"
+    },
+    {
+      "id": 2561701258,
+      "translation": "Fletchling \u2014 Pok\u00e9dex #661. A Pok\u00e9mon-inspired visitor to the Southwest Grasslands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 2675947126,
+      "translation": "Fletchinder"
+    },
+    {
+      "id": 1327867773,
+      "translation": "Fletchinder \u2014 Pok\u00e9dex #662. A Pok\u00e9mon-inspired visitor to the Northeast Highlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 3205810258,
+      "translation": "Hawlucha"
+    },
+    {
+      "id": 187645729,
+      "translation": "Hawlucha \u2014 Pok\u00e9dex #701. A Pok\u00e9mon-inspired visitor to the Northeast Highlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 3502854521,
+      "translation": "Yveltal"
+    },
+    {
+      "id": 4007414129,
+      "translation": "Yveltal \u2014 Pok\u00e9dex #717. A Pok\u00e9mon-inspired visitor to the Northeast Highlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 480605533,
+      "translation": "Volbeat"
+    },
+    {
+      "id": 692770860,
+      "translation": "Volbeat \u2014 Pok\u00e9dex #313. A Pok\u00e9mon-inspired visitor to the Southeast Wetlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 3536949015,
+      "translation": "Illumise"
+    },
+    {
+      "id": 3891795806,
+      "translation": "Illumise \u2014 Pok\u00e9dex #314. A Pok\u00e9mon-inspired visitor to the Southeast Wetlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 1033262439,
+      "translation": "Mothim"
+    },
+    {
+      "id": 3707383051,
+      "translation": "Mothim \u2014 Pok\u00e9dex #414. A Pok\u00e9mon-inspired visitor to the Northwest Forest. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 1038903967,
+      "translation": "Vivillon"
+    },
+    {
+      "id": 3441759395,
+      "translation": "Vivillon \u2014 Pok\u00e9dex #666. A Pok\u00e9mon-inspired visitor to the Northwest Forest. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 3811218213,
+      "translation": "Ducklett"
+    },
+    {
+      "id": 3680739149,
+      "translation": "Ducklett \u2014 Pok\u00e9dex #580. A Pok\u00e9mon-inspired visitor to the Southeast Wetlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 3619715284,
+      "translation": "Yanmega"
+    },
+    {
+      "id": 2026173929,
+      "translation": "Yanmega \u2014 Pok\u00e9dex #469. A Pok\u00e9mon-inspired visitor to the Southeast Wetlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 2622556,
+      "translation": "Cramorant"
+    },
+    {
+      "id": 486183416,
+      "translation": "Cramorant \u2014 Pok\u00e9dex #845. A Pok\u00e9mon-inspired visitor to the Southeast Wetlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 1909391171,
+      "translation": "Gligar"
+    },
+    {
+      "id": 2251186563,
+      "translation": "Gligar \u2014 Pok\u00e9dex #207. A Pok\u00e9mon-inspired visitor to the Northeast Highlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 1921919978,
+      "translation": "Talonflame"
+    },
+    {
+      "id": 2549374624,
+      "translation": "Talonflame \u2014 Pok\u00e9dex #663. A Pok\u00e9mon-inspired visitor to the Northeast Highlands. Listen for its call and photograph its perched and flying poses."
+    },
+    {
+      "id": 2464615008,
+      "translation": "Safari Zone"
+    }
+  ],
+  "config_info": {
+    "config_instance_id": 643327017,
+    "config_type_id": "LocaleExtension"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    160,
+    93
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Pidgey",
+  "body_position_y": 0.345,
+  "alignment_policy": "all-rest-pose opaque bounds"
+}

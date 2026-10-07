@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    201,
+    84
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Hoothoot",
+  "body_position_y": 0.075,
+  "alignment_policy": "per-view registration"
+}

@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    165,
+    107
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Noctowl",
+  "body_position_y": 1.155,
+  "alignment_policy": "all-rest-pose opaque bounds"
+}

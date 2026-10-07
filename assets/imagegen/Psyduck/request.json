@@ -1,0 +1,7 @@
+{
+  "species": "Psyduck",
+  "status": "generation_rejected",
+  "method": "built-in Imagegen",
+  "prompt_file": "docs/art-studies/psyduck-prompt.txt",
+  "error": "Prior Imagegen output moderation rejection; request ID f7b1846e-4913-40f5-aa13-c5533059675a. Not retried or disguised."
+}

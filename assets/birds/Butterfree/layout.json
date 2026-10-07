@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    175,
+    145
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Butterfree",
+  "body_position_y": 0.91,
+  "alignment_policy": "per-view registration; insect hover clearance"
+}

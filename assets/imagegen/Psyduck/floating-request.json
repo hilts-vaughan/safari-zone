@@ -1,0 +1,11 @@
+{
+  "method": "built-in Imagegen",
+  "status": "generated",
+  "prompt": "Edit the yellow duck-like creature in reference 1 into game sprite components; reference 2 shows the component sheet arrangement and smooth cartoon rendering only. Preserve the creature's large rounded yellow head, broad pale cream bill, plump yellow body, tiny crest and relaxed expression. Make this a FLOATING waterbird: low buoyant round body, tucked feet hidden below the waterline, small folded wings, no long legs, no standing or flight poses. Smooth flat pastel opaque colors and simple shapes, not pixel art, no heavy outlines. Transparent square canvas, regular 3 by 3 grid with wide empty gutters, no labels, no background or water painted into the sprites. Top row: detached head left profile, head front, head back. Middle row: three headless left-facing floating bodies, idle with folded wings, paddling with small wing raised, paddling with small wing lowered. Bottom row: headless floating body front, headless floating body back, complete assembled left-facing floating creature as size reference. Every body has only a short rounded neck attachment, no head, eyes, bill or crest. Consistent attachment height and character size across views; all tips inside cells. No swimming splash, glow, shading, texture, text or shadows.",
+  "transparent_background": true,
+  "references": [
+    "/tmp/codex-clipboard-AEkjMG.png",
+    "assets/imagegen/Ledyba/components.png"
+  ],
+  "source_image": "floating-components.png"
+}

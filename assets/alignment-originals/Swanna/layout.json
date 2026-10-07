@@ -1,0 +1,11 @@
+{
+  "head_center": [
+    165,
+    120
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Swanna",
+  "body_position_y": 1.125,
+  "ground_alignment_note": "Native body/head origin raised to the lowest resting silhouette point; some side views may float slightly because packed views differ.",
+  "alignment_policy": "all-rest-pose opaque bounds"
+}

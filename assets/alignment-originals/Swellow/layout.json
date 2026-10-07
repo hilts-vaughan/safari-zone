@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    180,
+    79
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Swellow",
+  "body_position_y": 0.115,
+  "alignment_policy": "all-rest-pose opaque bounds"
+}

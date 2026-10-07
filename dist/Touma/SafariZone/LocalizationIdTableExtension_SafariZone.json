@@ -1,0 +1,428 @@
+{
+  "ids_to_slug": [
+    {
+      "id": 2752076626,
+      "string": "touma.safarizone.zone.grass"
+    },
+    {
+      "id": 4147630203,
+      "string": "touma.safarizone.zone.water"
+    },
+    {
+      "id": 159433742,
+      "string": "touma.safarizone.zone.forest"
+    },
+    {
+      "id": 845296157,
+      "string": "touma.safarizone.zone.cliffs"
+    },
+    {
+      "id": 992330081,
+      "string": "touma.safarizone.rarity.highlegend"
+    },
+    {
+      "id": 2913725800,
+      "string": "touma.safarizone.rarity.pondregular"
+    },
+    {
+      "id": 2146293448,
+      "string": "touma.safarizone.bird.Pidgey.name"
+    },
+    {
+      "id": 1243785618,
+      "string": "touma.safarizone.bird.Pidgey.description"
+    },
+    {
+      "id": 3695514766,
+      "string": "touma.safarizone.bird.Spearow.name"
+    },
+    {
+      "id": 777008338,
+      "string": "touma.safarizone.bird.Spearow.description"
+    },
+    {
+      "id": 3273948400,
+      "string": "touma.safarizone.bird.Fearow.name"
+    },
+    {
+      "id": 3666348967,
+      "string": "touma.safarizone.bird.Fearow.description"
+    },
+    {
+      "id": 4232914395,
+      "string": "touma.safarizone.bird.Psyduck.name"
+    },
+    {
+      "id": 14271029,
+      "string": "touma.safarizone.bird.Psyduck.description"
+    },
+    {
+      "id": 2794024502,
+      "string": "touma.safarizone.bird.Farfetch'd.name"
+    },
+    {
+      "id": 3205783184,
+      "string": "touma.safarizone.bird.Farfetch'd.description"
+    },
+    {
+      "id": 1008811635,
+      "string": "touma.safarizone.bird.Doduo.name"
+    },
+    {
+      "id": 922999086,
+      "string": "touma.safarizone.bird.Doduo.description"
+    },
+    {
+      "id": 1252566395,
+      "string": "touma.safarizone.bird.Dodrio.name"
+    },
+    {
+      "id": 2179947626,
+      "string": "touma.safarizone.bird.Dodrio.description"
+    },
+    {
+      "id": 4108166670,
+      "string": "touma.safarizone.bird.Zapdos.name"
+    },
+    {
+      "id": 1974765406,
+      "string": "touma.safarizone.bird.Zapdos.description"
+    },
+    {
+      "id": 3941982737,
+      "string": "touma.safarizone.bird.Hoothoot.name"
+    },
+    {
+      "id": 832333674,
+      "string": "touma.safarizone.bird.Hoothoot.description"
+    },
+    {
+      "id": 1110162403,
+      "string": "touma.safarizone.bird.Noctowl.name"
+    },
+    {
+      "id": 1474749815,
+      "string": "touma.safarizone.bird.Noctowl.description"
+    },
+    {
+      "id": 2642378690,
+      "string": "touma.safarizone.bird.Natu.name"
+    },
+    {
+      "id": 133253945,
+      "string": "touma.safarizone.bird.Natu.description"
+    },
+    {
+      "id": 1118127161,
+      "string": "touma.safarizone.bird.Xatu.name"
+    },
+    {
+      "id": 2991004739,
+      "string": "touma.safarizone.bird.Xatu.description"
+    },
+    {
+      "id": 409441825,
+      "string": "touma.safarizone.bird.Murkrow.name"
+    },
+    {
+      "id": 2397382579,
+      "string": "touma.safarizone.bird.Murkrow.description"
+    },
+    {
+      "id": 2270471006,
+      "string": "touma.safarizone.bird.Delibird.name"
+    },
+    {
+      "id": 3285197515,
+      "string": "touma.safarizone.bird.Delibird.description"
+    },
+    {
+      "id": 31051167,
+      "string": "touma.safarizone.bird.Ho-Oh.name"
+    },
+    {
+      "id": 436225306,
+      "string": "touma.safarizone.bird.Ho-Oh.description"
+    },
+    {
+      "id": 1172816586,
+      "string": "touma.safarizone.bird.Taillow.name"
+    },
+    {
+      "id": 2430400594,
+      "string": "touma.safarizone.bird.Taillow.description"
+    },
+    {
+      "id": 1828767043,
+      "string": "touma.safarizone.bird.Swellow.name"
+    },
+    {
+      "id": 1864760277,
+      "string": "touma.safarizone.bird.Swellow.description"
+    },
+    {
+      "id": 3544102430,
+      "string": "touma.safarizone.bird.Wingull.name"
+    },
+    {
+      "id": 1127035779,
+      "string": "touma.safarizone.bird.Wingull.description"
+    },
+    {
+      "id": 1709075491,
+      "string": "touma.safarizone.bird.Pelipper.name"
+    },
+    {
+      "id": 703667905,
+      "string": "touma.safarizone.bird.Pelipper.description"
+    },
+    {
+      "id": 1061539601,
+      "string": "touma.safarizone.bird.Swablu.name"
+    },
+    {
+      "id": 2346922045,
+      "string": "touma.safarizone.bird.Swablu.description"
+    },
+    {
+      "id": 3870887819,
+      "string": "touma.safarizone.bird.Altaria.name"
+    },
+    {
+      "id": 120278196,
+      "string": "touma.safarizone.bird.Altaria.description"
+    },
+    {
+      "id": 2702687106,
+      "string": "touma.safarizone.bird.Butterfree.name"
+    },
+    {
+      "id": 3661371767,
+      "string": "touma.safarizone.bird.Butterfree.description"
+    },
+    {
+      "id": 2184117547,
+      "string": "touma.safarizone.bird.Ledyba.name"
+    },
+    {
+      "id": 3484990620,
+      "string": "touma.safarizone.bird.Ledyba.description"
+    },
+    {
+      "id": 2423901563,
+      "string": "touma.safarizone.bird.Beautifly.name"
+    },
+    {
+      "id": 2553601609,
+      "string": "touma.safarizone.bird.Beautifly.description"
+    },
+    {
+      "id": 166303100,
+      "string": "touma.safarizone.bird.Dustox.name"
+    },
+    {
+      "id": 2885739363,
+      "string": "touma.safarizone.bird.Dustox.description"
+    },
+    {
+      "id": 2863291256,
+      "string": "touma.safarizone.bird.Masquerain.name"
+    },
+    {
+      "id": 857746630,
+      "string": "touma.safarizone.bird.Masquerain.description"
+    },
+    {
+      "id": 3645391016,
+      "string": "touma.safarizone.bird.Yanma.name"
+    },
+    {
+      "id": 3664528918,
+      "string": "touma.safarizone.bird.Yanma.description"
+    },
+    {
+      "id": 3585113754,
+      "string": "touma.safarizone.bird.Combee.name"
+    },
+    {
+      "id": 3916574868,
+      "string": "touma.safarizone.bird.Combee.description"
+    },
+    {
+      "id": 2241006520,
+      "string": "touma.safarizone.bird.Volcarona.name"
+    },
+    {
+      "id": 2815680037,
+      "string": "touma.safarizone.bird.Volcarona.description"
+    },
+    {
+      "id": 125181995,
+      "string": "touma.safarizone.bird.Chatot.name"
+    },
+    {
+      "id": 3019665774,
+      "string": "touma.safarizone.bird.Chatot.description"
+    },
+    {
+      "id": 2897341923,
+      "string": "touma.safarizone.bird.Honchkrow.name"
+    },
+    {
+      "id": 539428647,
+      "string": "touma.safarizone.bird.Honchkrow.description"
+    },
+    {
+      "id": 3742074178,
+      "string": "touma.safarizone.bird.Starly.name"
+    },
+    {
+      "id": 111234317,
+      "string": "touma.safarizone.bird.Starly.description"
+    },
+    {
+      "id": 1682297746,
+      "string": "touma.safarizone.bird.Staravia.name"
+    },
+    {
+      "id": 1510312465,
+      "string": "touma.safarizone.bird.Staravia.description"
+    },
+    {
+      "id": 1731365882,
+      "string": "touma.safarizone.bird.Swanna.name"
+    },
+    {
+      "id": 1539739960,
+      "string": "touma.safarizone.bird.Swanna.description"
+    },
+    {
+      "id": 2901965759,
+      "string": "touma.safarizone.bird.Braviary.name"
+    },
+    {
+      "id": 1519274882,
+      "string": "touma.safarizone.bird.Braviary.description"
+    },
+    {
+      "id": 3045313666,
+      "string": "touma.safarizone.bird.Archeops.name"
+    },
+    {
+      "id": 937846038,
+      "string": "touma.safarizone.bird.Archeops.description"
+    },
+    {
+      "id": 2836917218,
+      "string": "touma.safarizone.bird.Fletchling.name"
+    },
+    {
+      "id": 2561701258,
+      "string": "touma.safarizone.bird.Fletchling.description"
+    },
+    {
+      "id": 2675947126,
+      "string": "touma.safarizone.bird.Fletchinder.name"
+    },
+    {
+      "id": 1327867773,
+      "string": "touma.safarizone.bird.Fletchinder.description"
+    },
+    {
+      "id": 3205810258,
+      "string": "touma.safarizone.bird.Hawlucha.name"
+    },
+    {
+      "id": 187645729,
+      "string": "touma.safarizone.bird.Hawlucha.description"
+    },
+    {
+      "id": 3502854521,
+      "string": "touma.safarizone.bird.Yveltal.name"
+    },
+    {
+      "id": 4007414129,
+      "string": "touma.safarizone.bird.Yveltal.description"
+    },
+    {
+      "id": 480605533,
+      "string": "touma.safarizone.bird.Volbeat.name"
+    },
+    {
+      "id": 692770860,
+      "string": "touma.safarizone.bird.Volbeat.description"
+    },
+    {
+      "id": 3536949015,
+      "string": "touma.safarizone.bird.Illumise.name"
+    },
+    {
+      "id": 3891795806,
+      "string": "touma.safarizone.bird.Illumise.description"
+    },
+    {
+      "id": 1033262439,
+      "string": "touma.safarizone.bird.Mothim.name"
+    },
+    {
+      "id": 3707383051,
+      "string": "touma.safarizone.bird.Mothim.description"
+    },
+    {
+      "id": 1038903967,
+      "string": "touma.safarizone.bird.Vivillon.name"
+    },
+    {
+      "id": 3441759395,
+      "string": "touma.safarizone.bird.Vivillon.description"
+    },
+    {
+      "id": 3811218213,
+      "string": "touma.safarizone.bird.Ducklett.name"
+    },
+    {
+      "id": 3680739149,
+      "string": "touma.safarizone.bird.Ducklett.description"
+    },
+    {
+      "id": 3619715284,
+      "string": "touma.safarizone.bird.Yanmega.name"
+    },
+    {
+      "id": 2026173929,
+      "string": "touma.safarizone.bird.Yanmega.description"
+    },
+    {
+      "id": 2622556,
+      "string": "touma.safarizone.bird.Cramorant.name"
+    },
+    {
+      "id": 486183416,
+      "string": "touma.safarizone.bird.Cramorant.description"
+    },
+    {
+      "id": 1909391171,
+      "string": "touma.safarizone.bird.Gligar.name"
+    },
+    {
+      "id": 2251186563,
+      "string": "touma.safarizone.bird.Gligar.description"
+    },
+    {
+      "id": 1921919978,
+      "string": "touma.safarizone.bird.Talonflame.name"
+    },
+    {
+      "id": 2549374624,
+      "string": "touma.safarizone.bird.Talonflame.description"
+    },
+    {
+      "id": 2464615008,
+      "string": "touma.safarizone.map.name"
+    }
+  ],
+  "config_info": {
+    "config_instance_id": 3003542520,
+    "config_type_id": "LocalizationIdTableExtension"
+  }
+}

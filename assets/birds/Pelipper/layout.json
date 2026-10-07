@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    145,
+    95
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Pelipper",
+  "body_position_y": 0.015,
+  "alignment_policy": "per-view registration"
+}

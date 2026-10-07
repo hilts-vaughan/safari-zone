@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    165,
+    115
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Combee",
+  "body_position_y": 0.53,
+  "alignment_policy": "per-view registration; insect hover clearance"
+}

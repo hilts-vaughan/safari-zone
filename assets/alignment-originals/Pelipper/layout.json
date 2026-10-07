@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    145,
+    95
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Pelipper",
+  "body_position_y": 0.035,
+  "alignment_policy": "all-rest-pose opaque bounds"
+}

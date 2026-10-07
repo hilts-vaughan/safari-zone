@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    182,
+    74
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Spearow",
+  "body_position_y": 0.075,
+  "alignment_policy": "all-rest-pose opaque bounds"
+}

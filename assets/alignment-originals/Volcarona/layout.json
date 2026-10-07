@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    165,
+    115
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Volcarona",
+  "body_position_y": 0.72,
+  "alignment_policy": "all-rest-pose opaque bounds; insect hover clearance"
+}

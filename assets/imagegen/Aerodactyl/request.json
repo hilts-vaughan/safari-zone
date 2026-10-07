@@ -1,0 +1,20 @@
+{
+  "status": "generation rejected; not active or installed",
+  "attempts": [
+    {
+      "prompt": "Aerodactyl Pokémon. Friendly stylized gray-purple prehistoric pterosaur, large angular long-jawed head, short horns, broad batlike purple wing membranes, clawed wing fingers, small clawed feet and long slender tail ending in an arrow tip. Preserve pterosaur anatomy, no feathers, no bird beak. Mouth mostly closed. Create a sprite component board for a Flock Around mod: smooth rounded flat-color cartoon, simple clean silhouettes, opaque pastel colors, minimal shading, no heavy outlines. Square TRANSPARENT canvas, exactly THREE BY THREE equal cells, generous empty gutters, no labels or borders. Top row: detached head LEFT profile facing left, detached head front, detached head back. Middle row: headless LEFT-profile body resting/folded wings, same headless body wings raised in flight, same headless body wings lowered in flight. Bottom row: headless front-facing resting body, headless back-facing resting body, complete assembled left-profile character reference. All five bodies must have NO head or eyes, just a short neck attachment. Consistent anatomy, sizes, palette across views. No scenery, cast shadows, text, checkerboard pattern or clipped limbs. Large gaps separate each component.",
+      "result": "imagegen output moderation_blocked other",
+      "request_id": "0aba6532-9700-402f-b6fd-7d95da0afa34"
+    },
+    {
+      "prompt": "Create a transparent cartoon sprite component sheet of Aerodactyl for a birdwatching game. Rounded flat-color gray-purple pterosaur with long angular jaw, small head horns, purple membrane wings, clawed feet and a long arrow-tipped tail. Friendly expression, simple clean shapes, minimal shading. Exactly 3x3 cells with wide empty gutters and no text. Top row: detached heads, left profile/front/back. Middle row: headless left-profile bodies with folded wings/wings raised/wings lowered. Bottom row: headless front body/headless back body/complete left-profile reference. Consistent anatomy and proportions. Transparent background, no scenery, glow or shadows.",
+      "result": "imagegen output moderation_blocked other",
+      "request_id": "ed2f97ab-0e01-4345-afe9-1173dff0468b"
+    },
+    {
+      "prompt": "A friendly Aerodactyl character for a birdwatching game, standing in left profile with folded wings. Soft rounded cartoon shapes, flat muted gray-purple colors, small head horns, angular pterosaur jaw, purple membrane wings, clawed feet, long slender tail ending in an arrow tip. Full character comfortably inside the frame. Genuinely transparent background. No scenery, text, glow or cast shadow.",
+      "result": "imagegen output moderation_blocked other",
+      "request_id": "32f21341-1693-468b-959b-99d63fc495f0"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "method": "built-in Imagegen",
+  "source": "docs/art-studies/pidgey-imagegen-poses.png",
+  "status": "generation_rejected",
+  "request_id": "3e6279ce-6275-4258-9927-fba00acbe43d",
+  "moderation_stage": "output",
+  "categories": ["other"],
+  "installed_artwork_changed": false
+}

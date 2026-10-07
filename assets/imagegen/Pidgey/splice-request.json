@@ -1,0 +1,7 @@
+{
+  "method": "built-in Imagegen",
+  "status": "generated",
+  "reference": "docs/art-studies/pidgey-imagegen-poses.png",
+  "prompt": "Splice the supplied sprite artwork into separate animation pieces, preserving its existing character design and palette. Transparent square canvas with a regular 3 by 3 grid and empty gutters. Top row: isolated head in side, front and back views, including bill and crest. Middle row: body without head in the source's three side poses: resting, wings raised, wings lowered. Bottom row: body without head facing front, body without head facing back, complete assembled resting side pose for reference. The five body pieces retain wings, feet, tail and a short neck attachment, but exclude eyes, bill and crest. Preserve the supplied shapes as closely as possible. No new characters, text, borders, scenery or shadows. All pieces fully visible and separated.",
+  "transparent_background": true
+}

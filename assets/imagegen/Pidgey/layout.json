@@ -1,0 +1,120 @@
+{
+  "scale": 0.38,
+  "head_pivot": [
+    75,
+    118
+  ],
+  "neck": [
+    160,
+    136
+  ],
+  "heads": [
+    {
+      "box": [
+        0,
+        0,
+        418,
+        382
+      ],
+      "pivot": [
+        219,
+        321
+      ]
+    },
+    {
+      "box": [
+        418,
+        0,
+        836,
+        382
+      ],
+      "pivot": [
+        613,
+        326
+      ],
+      "target": [
+        75,
+        105
+      ]
+    },
+    {
+      "box": [
+        836,
+        0,
+        1254,
+        382
+      ],
+      "pivot": [
+        1014,
+        331
+      ],
+      "target": [
+        75,
+        100
+      ]
+    }
+  ],
+  "bodies": [
+    {
+      "box": [
+        0,
+        480,
+        414,
+        799
+      ],
+      "pivot": [
+        121,
+        544
+      ]
+    },
+    {
+      "box": [
+        420,
+        395,
+        790,
+        795
+      ],
+      "pivot": [
+        498,
+        558
+      ]
+    },
+    {
+      "box": [
+        792,
+        480,
+        1254,
+        811
+      ],
+      "pivot": [
+        881,
+        545
+      ]
+    },
+    {
+      "box": [
+        0,
+        830,
+        399,
+        1200
+      ],
+      "pivot": [
+        207,
+        917.2105263157895
+      ]
+    },
+    {
+      "box": [
+        420,
+        820,
+        788,
+        1200
+      ],
+      "pivot": [
+        610,
+        920.3684210526316
+      ]
+    }
+  ],
+  "ground_registration_note": "Original pixels translated only. Resting feet end at y=232; native body/head origin is raised by 0.32 to align ground without cropping the tall front crest."
+}

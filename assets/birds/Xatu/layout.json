@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    179,
+    89
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Xatu",
+  "body_position_y": 0.055,
+  "alignment_policy": "per-view registration"
+}

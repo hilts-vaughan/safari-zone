@@ -1,0 +1,350 @@
+{
+  "status": "40 active species, all with packed Imagegen artwork. Nine legacy species retired. Pidgeot removed; Rowlet not added.",
+  "species": {
+    "Altaria": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Altaria",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/334.ogg"
+    },
+    "Articuno": {
+      "method": "legacy original procedural artwork",
+      "replacement_status": "Retired from active roster and release; source artwork retained for provenance."
+    },
+    "Blaziken": {
+      "method": "legacy original procedural artwork",
+      "replacement_status": "Retired from active roster and release; source artwork retained for provenance."
+    },
+    "Combusken": {
+      "method": "legacy original procedural artwork",
+      "replacement_status": "Retired from active roster and release; source artwork retained for provenance."
+    },
+    "Delibird": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Delibird",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/225.ogg"
+    },
+    "Dodrio": {
+      "method": "built-in Imagegen",
+      "replacement_status": "All five assembled poses reviewed; native spawn confirmed; installed and hash-verified. Runtime suite retains known shutdown string cleanup error.",
+      "source": "assets/imagegen/Dodrio",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/85.ogg"
+    },
+    "Doduo": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Doduo",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/84.ogg"
+    },
+    "Farfetch'd": {
+      "method": "built-in Imagegen",
+      "replacement_status": "All five assembled poses reviewed; native spawn confirmed; installed and hash-verified. Runtime suite retains known shutdown string cleanup error.",
+      "source": "assets/imagegen/Farfetch'd",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/83.ogg"
+    },
+    "Fearow": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Fearow",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/22.ogg"
+    },
+    "Golduck": {
+      "method": "legacy original procedural artwork",
+      "replacement_status": "Retired from active roster and release; source artwork retained for provenance."
+    },
+    "Ho-Oh": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Ho-Oh",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/250.ogg"
+    },
+    "Hoothoot": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Hoothoot",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/163.ogg"
+    },
+    "Lugia": {
+      "method": "legacy original procedural artwork",
+      "replacement_status": "Retired from active roster and release; source artwork retained for provenance."
+    },
+    "Moltres": {
+      "method": "legacy original procedural artwork",
+      "replacement_status": "Retired from active roster and release; source artwork retained for provenance."
+    },
+    "Murkrow": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Murkrow",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/198.ogg"
+    },
+    "Natu": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Natu",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/177.ogg"
+    },
+    "Noctowl": {
+      "method": "built-in Imagegen",
+      "replacement_status": "All five assembled poses reviewed; native spawn confirmed; installed and hash-verified. Runtime suite retains known shutdown string cleanup error.",
+      "source": "assets/imagegen/Noctowl",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/164.ogg",
+      "head_turn_alignment": "All three heads registered to side-frame neck baseline; all fifteen head/body combinations validated"
+    },
+    "Pelipper": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Pelipper",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/279.ogg"
+    },
+    "Pidgeotto": {
+      "method": "legacy original procedural artwork",
+      "replacement_status": "Retired from active roster and release; source artwork retained for provenance."
+    },
+    "Pidgey": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active; Imagegen components translated and registered to a common resting ground baseline; no artwork redrawn.",
+      "source": "assets/imagegen/Pidgey",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/16.ogg"
+    },
+    "Psyduck": {
+      "method": "built-in Imagegen",
+      "replacement_status": "All five assembled poses reviewed; native spawn confirmed; installed and hash-verified. Runtime suite retains known shutdown string cleanup error.",
+      "source": "assets/imagegen/Psyduck",
+      "movement": "Native flightless swimming; water spawn and compatible hangouts limited to main wetlands pond. 454 sampled positions inside water in final 60-second observation. Stress/seed-driven behavior and multiplayer not comprehensively exercised.",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/54.ogg"
+    },
+    "Skarmory": {
+      "method": "legacy original procedural artwork",
+      "replacement_status": "Retired from active roster and release; source artwork retained for provenance."
+    },
+    "Spearow": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Spearow",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/21.ogg"
+    },
+    "Swablu": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Swablu",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/333.ogg"
+    },
+    "Swellow": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Swellow",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/277.ogg"
+    },
+    "Taillow": {
+      "method": "built-in Imagegen",
+      "replacement_status": "All five assembled poses reviewed; native spawn confirmed; installed and hash-verified. Runtime suite retains known shutdown string cleanup error.",
+      "source": "assets/imagegen/Taillow",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/276.ogg"
+    },
+    "Torchic": {
+      "method": "legacy original procedural artwork",
+      "replacement_status": "Retired from active roster and release; source artwork retained for provenance."
+    },
+    "Wingull": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Wingull",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/278.ogg"
+    },
+    "Xatu": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Xatu",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/178.ogg"
+    },
+    "Zapdos": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Zapdos",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/145.ogg"
+    },
+    "Butterfree": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Five poses reviewed; native spawn confirmed; installed and hash-verified. Runtime suite retains known hangout/shutdown failures.",
+      "source": "assets/imagegen/Butterfree",
+      "call": "Original deterministic synthesized chirp, not a Pok\u00e9mon recording.",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/12.ogg"
+    },
+    "Ledyba": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Ledyba",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/165.ogg"
+    },
+    "Honchkrow": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster; packed Imagegen poses reviewed.",
+      "source": "assets/imagegen/Honchkrow",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/430.ogg",
+      "size_target_scaled_side_height": 210
+    },
+    "Chatot": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster; packed Imagegen poses reviewed.",
+      "source": "assets/imagegen/Chatot",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/441.ogg",
+      "size_target_scaled_side_height": 130
+    },
+    "Starly": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster; packed Imagegen poses reviewed.",
+      "source": "assets/imagegen/Starly",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/396.ogg",
+      "size_target_scaled_side_height": 90
+    },
+    "Staravia": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster; packed Imagegen poses reviewed.",
+      "source": "assets/imagegen/Staravia",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/397.ogg",
+      "size_target_scaled_side_height": 145
+    },
+    "Swanna": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster; packed Imagegen poses reviewed.",
+      "source": "assets/imagegen/Swanna",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/581.ogg",
+      "size_target_scaled_side_height": 220
+    },
+    "Braviary": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster; packed Imagegen poses reviewed.",
+      "source": "assets/imagegen/Braviary",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/628.ogg",
+      "size_target_scaled_side_height": 230
+    },
+    "Archeops": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster; packed Imagegen poses reviewed.",
+      "source": "assets/imagegen/Archeops",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/567.ogg",
+      "size_target_scaled_side_height": 215
+    },
+    "Fletchling": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster; packed Imagegen poses reviewed.",
+      "source": "assets/imagegen/Fletchling",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/661.ogg",
+      "size_target_scaled_side_height": 85
+    },
+    "Fletchinder": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster; packed Imagegen poses reviewed.",
+      "source": "assets/imagegen/Fletchinder",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/662.ogg",
+      "size_target_scaled_side_height": 145
+    },
+    "Hawlucha": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster; packed Imagegen poses reviewed.",
+      "source": "assets/imagegen/Hawlucha",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/701.ogg",
+      "size_target_scaled_side_height": 180
+    },
+    "Yveltal": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster; packed Imagegen poses reviewed.",
+      "source": "assets/imagegen/Yveltal",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/717.ogg",
+      "size_target_scaled_side_height": 310
+    },
+    "Masquerain": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster: five assembled Imagegen poses reviewed and packed.",
+      "source": "assets/imagegen/Masquerain",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/284.ogg"
+    },
+    "Beautifly": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster: five assembled Imagegen poses reviewed and packed.",
+      "source": "assets/imagegen/Beautifly",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/267.ogg"
+    },
+    "Dustox": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster: five assembled Imagegen poses reviewed and packed.",
+      "source": "assets/imagegen/Dustox",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/269.ogg",
+      "head_turn_alignment": "All three heads registered to side-frame neck baseline; all fifteen head/body combinations validated"
+    },
+    "Yanma": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster: five assembled Imagegen poses reviewed and packed.",
+      "source": "assets/imagegen/Yanma",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/193.ogg"
+    },
+    "Combee": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster: five assembled Imagegen poses reviewed and packed.",
+      "source": "assets/imagegen/Combee",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/415.ogg"
+    },
+    "Volcarona": {
+      "method": "built-in Imagegen",
+      "replacement_status": "Active roster: five assembled Imagegen poses reviewed and packed.",
+      "source": "assets/imagegen/Volcarona",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/637.ogg"
+    },
+    "Volbeat": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Volbeat",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/313.ogg"
+    },
+    "Illumise": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Illumise",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/314.ogg"
+    },
+    "Mothim": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Mothim",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/414.ogg"
+    },
+    "Vivillon": {
+      "method": "built-in Imagegen",
+      "replacement_status": "packed; runtime review pending",
+      "source": "assets/imagegen/Vivillon",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/666.ogg"
+    },
+    "Ducklett": {
+      "method": "built-in Imagegen",
+      "replacement_status": "installed; assembled poses reviewed; native spawn confirmed; terrain placement review limited by occlusion",
+      "source": "assets/imagegen/Ducklett",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/580.ogg"
+    },
+    "Cramorant": {
+      "method": "built-in Imagegen",
+      "replacement_status": "installed; assembled poses reviewed; native spawn confirmed; terrain placement review limited by occlusion",
+      "source": "assets/imagegen/Cramorant",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/845.ogg"
+    },
+    "Yanmega": {
+      "method": "built-in Imagegen",
+      "replacement_status": "installed; assembled poses reviewed; native spawn confirmed; terrain placement review limited by occlusion",
+      "source": "assets/imagegen/Yanmega",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/469.ogg"
+    },
+    "Gligar": {
+      "method": "built-in Imagegen",
+      "replacement_status": "installed; five assembled poses and all head/body attachment combinations reviewed; native spawn confirmed",
+      "source": "assets/imagegen/Gligar",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/207.ogg"
+    },
+    "Talonflame": {
+      "method": "built-in Imagegen",
+      "replacement_status": "installed; five assembled poses and all head/body attachment combinations reviewed; native spawn confirmed",
+      "source": "assets/imagegen/Talonflame",
+      "call_source": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/663.ogg"
+    }
+  }
+}

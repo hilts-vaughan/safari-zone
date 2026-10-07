@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    188,
+    73
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Murkrow",
+  "body_position_y": 0.205,
+  "alignment_policy": "all-rest-pose opaque bounds"
+}

@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "has_chosen_locale": true,
+  "language": 632594830,
+  "has_modding_consent": true,
+  "allow_console": true,
+  "allow_telemetry": false,
+  "window_mode": 1,
+  "viewport_scale": 0.75,
+  "framerate_cap": 30,
+  "draw_distance": 1500,
+  "cull_distance": 80,
+  "preferred_lobby_settings": {
+    "level": 0,
+    "lobby_mode": 0,
+    "biome_progression_mode": 0,
+    "voice": false,
+    "bird_poop": true,
+    "shinies": true
+  },
+  "action_to_keybinds_v2": {
+    "console": [{"type": 1, "keycode": 96, "mouse_button": 0, "joy_button": 0, "joy_axis": 0, "axis_value": 0.0}]
+  }
+}

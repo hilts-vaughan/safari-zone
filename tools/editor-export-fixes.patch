@@ -1,0 +1,56 @@
+diff --git a/SceneEditor/Scripts/Editor/ExportFlow.cs b/SceneEditor/Scripts/Editor/ExportFlow.cs
+index 8cd9198..80a6336 100644
+--- a/SceneEditor/Scripts/Editor/ExportFlow.cs
++++ b/SceneEditor/Scripts/Editor/ExportFlow.cs
+@@ -1,4 +1,4 @@
+-﻿using System;
++using System;
+ using System.Collections.Generic;
+ using System.IO;
+ using System.Linq;
+@@ -55,6 +55,13 @@ public partial class ExportFlow : Node
+         levelPathLineEdit.Text = _levelScenePath;
+ 
+         _consoleOutput.Clear();
++        var args = OS.GetCmdlineUserArgs();
++        if (args.Length == 3 && args[0] == "--export-scene")
++        {
++            _levelScenePath = args[1];
++            _gamePckPath = args[2];
++            Callable.From(() => { DoExport(); GetTree().Quit(_customLogger.ConsumeErrorFlag() ? 1 : 0); }).CallDeferred();
++        }
+     }
+ 
+     private void OnPckPathChanged(string newText)
+@@ -265,7 +272,9 @@ public partial class ExportFlow : Node
+                             {
+                                 var itemReferencedInImportFile = config.GetValue(sectionName, key).AsString();
+ 
+-                                if (resourceCache.Contains(itemReferencedInImportFile))
++                                // Imported textures live in hidden .godot directories, which
++                                // the source-resource walk does not enumerate.
++                                if (Godot.FileAccess.FileExists(itemReferencedInImportFile))
+                                 {
+                                     AddPckFile(pckList, itemReferencedInImportFile);
+                                 }
+@@ -401,6 +410,8 @@ public partial class ExportFlow : Node
+ 
+     private static string GlobalModPath()
+     {
++        var overridePath = System.Environment.GetEnvironmentVariable("FLOCK_MOD_OUTPUT");
++        if (!string.IsNullOrEmpty(overridePath)) return overridePath;
+         var userDirectory = new DirectoryInfo(ProjectSettings.GlobalizePath("user://"));
+         var modPath = Path.Join(userDirectory.Parent!.FullName, "SecretPlan", "FlockAround", "Mods");
+         return modPath;
+@@ -540,7 +551,10 @@ public partial class ExportFlow : Node
+                 _ => "UNKNOWN"
+             };
+ 
+-            _errorFlag = true;
++            // Godot reports UID-to-path fallbacks through the warning channel.
++            // Preserve those diagnostics without treating warnings as errors.
++            if (errorType != 1)
++                _errorFlag = true;
+ 
+             Message?.Invoke(
+                 $"[color=pink]Caught {errorTypeName} at {file}:{line}\nMessage: {code}\nRationale: {rationale}[/color]\n");

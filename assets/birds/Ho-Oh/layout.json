@@ -1,0 +1,11 @@
+{
+  "head_center": [
+    178,
+    72
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Ho-Oh",
+  "body_position_y": 0.175,
+  "alignment_policy": "per-view registration",
+  "head_turn_alignment": "All head frames share the side-head neck baseline; independent head/body turns supported"
+}

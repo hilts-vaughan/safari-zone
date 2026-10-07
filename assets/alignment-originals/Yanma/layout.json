@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    165,
+    115
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Yanma",
+  "body_position_y": 0.53,
+  "alignment_policy": "all-rest-pose opaque bounds; insect hover clearance"
+}

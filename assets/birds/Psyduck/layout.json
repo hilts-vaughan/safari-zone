@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    170,
+    124
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Psyduck",
+  "body_position_y": 1.6,
+  "alignment_policy": "waterline"
+}

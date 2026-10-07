@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    183,
+    72
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Zapdos",
+  "body_position_y": 0.175,
+  "alignment_policy": "all-rest-pose opaque bounds"
+}

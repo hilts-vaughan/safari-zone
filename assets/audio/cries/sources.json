@@ -1,0 +1,448 @@
+{
+  "source": "https://github.com/PokeAPI/cries",
+  "commit": "ef687b18f0ce17169b4b4c09175819f7ade92f0f",
+  "method": "Latest cries; original OGG retained. Mono 44.1kHz PCM WAV, peak normalized to -6 dBFS. Original pitch and duration retained.",
+  "species": [
+    {
+      "name": "Pidgey",
+      "dex": 16,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/16.ogg",
+      "original_sha256": "84e599c9bdfc9315e55f78cfaf3262ad0958bdb671239c877a2d9e647d659842",
+      "wav_sha256": "fa4f4b4037e06c82199a32a36a5e2a5d39fca6cd167a21ec853e32adbd427697",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Spearow",
+      "dex": 21,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/21.ogg",
+      "original_sha256": "6461f7d577430fb049afec8da647cc58ddf9c472b582218fecc39a2d3d219c04",
+      "wav_sha256": "57e99a5eef8c3c96bc09fabe83022705057f266fb5c50a355396f88fa68da091",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Fearow",
+      "dex": 22,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/22.ogg",
+      "original_sha256": "d62981ad1fc9d59334d46c0ccf7c6977af118950a313ed026a2d2699e9704665",
+      "wav_sha256": "a1dd13e87246dc106be45f6971850a0b6ad59e308ccdf7a991cd1ec921ce0050",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Psyduck",
+      "dex": 54,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/54.ogg",
+      "original_sha256": "2313b1749ba446f7ad5634dafed46b6b72dde6cad5dad4529b45cc17b4f5b306",
+      "wav_sha256": "be1e60f4f61c77060070afc917fff0d01c66c184fb8162de0be8611044dc3f72",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Farfetch'd",
+      "dex": 83,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/83.ogg",
+      "original_sha256": "851dfc31aa191ecbbc48b5f95534738874d4b1572331a4679323268535c003db",
+      "wav_sha256": "657e4499201b9afb014cec7cf3f4f4c36f4d892729c12df437bc97743ecc6865",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Doduo",
+      "dex": 84,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/84.ogg",
+      "original_sha256": "1c94a04c3f3b62dc2b55239f9cf87caf7b7dd82abc48a24c4ead05d6b5415b10",
+      "wav_sha256": "51c6fe3bca9745e77dbc0ba6bd170f9ec5c9d12cee2e4ece2dff8037ac623006",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Dodrio",
+      "dex": 85,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/85.ogg",
+      "original_sha256": "90c693dd2656350bfedfbde7f08fb4417571cd9a922abd3bfdf94aec3a2813d5",
+      "wav_sha256": "e31d0f17a217e854a0836858291923c3bb42003f63af036f6e70bccfff6a14be",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Zapdos",
+      "dex": 145,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/145.ogg",
+      "original_sha256": "14170397636113ab7ad532bf7adff189344fbfcfd296d6f02f9a64cc915344ff",
+      "wav_sha256": "286b44b7cf2459d05e751e1ed40ffdaf1119b83fe9d64d3771e2e2b3f50865c4",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Hoothoot",
+      "dex": 163,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/163.ogg",
+      "original_sha256": "c4e86e5d1142f437f4b699c49978af8273efc009c6d7f4152f4cf964a050772c",
+      "wav_sha256": "ac610c11a90c7025f80a30c18e449c686bbdf89b0f0c7b17bcb489afedc5cbff",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Noctowl",
+      "dex": 164,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/164.ogg",
+      "original_sha256": "7957a826038ff482842b8af4a4993658b257debf60b8048cc4f918b04066b188",
+      "wav_sha256": "aa6a47d8960ba99757b8b1709668a1361177a4eeb9a2ef3e8da63c556c2e9c35",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Natu",
+      "dex": 177,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/177.ogg",
+      "original_sha256": "2c3bddee7f44d0244cf1f4ee4a5d3b777769e29f7f24089c1d66ddb5cf9862a9",
+      "wav_sha256": "81a205b981826dbdc3c82cfe4325cb8c398d6f53f314011ad86cac5586e760d0",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Xatu",
+      "dex": 178,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/178.ogg",
+      "original_sha256": "381914d5b63d75075a0dd7abbb24169868cf421c8011f131751bc9b67cf02a67",
+      "wav_sha256": "ade17f937696b413fd6fd2ba51a4741b289ae4de991ab71014f900b1004a8795",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Murkrow",
+      "dex": 198,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/198.ogg",
+      "original_sha256": "a184fafb0bb09cdb15e4c12ead11a455632d13915e677a4e5840edff6adcb72e",
+      "wav_sha256": "6a5a813a89db7da348162bffc28eac830b59030a3166e5a3297f46bd8d03167f",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Delibird",
+      "dex": 225,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/225.ogg",
+      "original_sha256": "62bb6ecb5dc448a7bdec5bce8e340d56312ec22fd49a62def858f29ee3ca53ab",
+      "wav_sha256": "238fc43131e18b409fdab08a37ef92bd86066e9493257f404908ef5a43a2b9bd",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Ho-Oh",
+      "dex": 250,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/250.ogg",
+      "original_sha256": "4ff7872ed7ab9178359a8b142ff3ab87c5ffdcb835913b65e394551ba1961c75",
+      "wav_sha256": "35c4a2fe133918c1bb65d76c7682ae88be6c230a5c5cf8d3e817b6d44946e5b3",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Taillow",
+      "dex": 276,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/276.ogg",
+      "original_sha256": "ae4911d9dbdc7921b6dfca00d321c09648ae58b092f9ce583894236981b10b84",
+      "wav_sha256": "0f3d7bc14afcea34ce1dab8b651e418474b68e1fcb4568cc8ff10e08f9c5d8c0",
+      "gain_db": -5.9,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Swellow",
+      "dex": 277,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/277.ogg",
+      "original_sha256": "abc373c977abec36dafd62eb23c7ddd52b327349ad10c68b97ef6d8e6c901330",
+      "wav_sha256": "1d4e3a6c11c0cf57d35d36058ae63103eb0f6f74f9217efdef8bd697d5bba81e",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Wingull",
+      "dex": 278,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/278.ogg",
+      "original_sha256": "3413fb40a2a1530c9fc6b68b87f33aa7bb1a86323b18b4bf8d8317233ec938ba",
+      "wav_sha256": "ace37b5623c8307b66459cbc0d1773c6ffb73c7960d4b81d6f3a297cc3c503a9",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Pelipper",
+      "dex": 279,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/279.ogg",
+      "original_sha256": "481fbe18b576e7dd81be272274572a8731a6e2ddd23311e46bdb54a8ab5936bd",
+      "wav_sha256": "5ab5a12e645b53b45d7a572cce409dbf8e593da149b956f714deb7c706b3cbb0",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Swablu",
+      "dex": 333,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/333.ogg",
+      "original_sha256": "60ef2bcda92114b476394c523b155bfb2e9ff26e860f83ad565df6eb986a54ac",
+      "wav_sha256": "813b5a3eae16ab99ff18c2cbe05d578df92d9632807377e5c9ff2a0b894267d6",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Altaria",
+      "dex": 334,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/334.ogg",
+      "original_sha256": "840a1fa1709fb0752703a95eb4962b8620ec586a05a3759b427194e97d526d5f",
+      "wav_sha256": "924591ed5fd831089446a233e83e46ba4a0bdb4032427b03ff4fe8fb8b74fcd0",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Butterfree",
+      "dex": 12,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/12.ogg",
+      "original_sha256": "a761dc3185c3063b835dcfd21999b0bed78e20957f9226b5918056fac0d014a5",
+      "wav_sha256": "f6657d683913176a154918663330444f5a4ae49e6f7e9fabf7f611f9d6d6f159",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Ledyba",
+      "dex": 165,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/165.ogg",
+      "original_sha256": "df0f47f4625bb0de72a5e381de66ed275aaf7a9733cc91ab7bfd8367000985ca",
+      "wav_sha256": "8ba6266986ab19dd132f82b8f8054006b6a8d02e32e0eebd852a53e243539607",
+      "gain_db": -5.8,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Beautifly",
+      "dex": 267,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/267.ogg",
+      "original_sha256": "fdf91b540ea441b77dd5322643771a729f14bc7001d297b74bb8bdb07bfb59d1",
+      "wav_sha256": "d980e297711f8f0c0c0890936a40408fe0adb4fecf581002c8abaaee14178caa",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Dustox",
+      "dex": 269,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/269.ogg",
+      "original_sha256": "ea2c47bf24d1cfd4e4728f2dfad0cb5398babe4d9549000f885a8bd8d76e7dc4",
+      "wav_sha256": "fd3f7ca7c83cf26758f25d4d9b9ffe2cbfd05782eab9fa41a9a247a3d485e297",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Masquerain",
+      "dex": 284,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/284.ogg",
+      "original_sha256": "f2f45e3db2da36d350b24d7ed0f20464aa2fe1b86f65ade7ad01b3a5a1626f3f",
+      "wav_sha256": "4ecbc757da3d599e725aeb3bd00b8333af3d866df7eb7c273b125395c29c3580",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Yanma",
+      "dex": 193,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/193.ogg",
+      "original_sha256": "2a36e1f058f0b8bb21a67133fb6c5a71d4c85f4c624882046f7501c94e007b1e",
+      "wav_sha256": "b3f003cb77f8b305cb57ce754367a70018527a306778008838229e5c14f7cd21",
+      "gain_db": -5.5,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Combee",
+      "dex": 415,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/415.ogg",
+      "original_sha256": "1e837944f87d5fe872c925b081067beea1321cab3cda450014ac674d4f13855f",
+      "wav_sha256": "140372ac3b865660a8c4bd0f8022bd7322b8125304c386ce9f89d18f55ac3a5a",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Volcarona",
+      "dex": 637,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/637.ogg",
+      "original_sha256": "584b1220e9e591ccee6261e6d70b6cce1038caa98146593c02c40ec263e8c9dc",
+      "wav_sha256": "63b39958f7822a40765046777d055bf230649fcd402bc1491ce28e53e8738902",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Chatot",
+      "dex": 441,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/441.ogg",
+      "original_sha256": "0ccd43d790734bb9c2b1b94e80f2d88c95d7acb9c943a6e3a7dada4b945ec4e0",
+      "wav_sha256": "55d2a95c090ab6215e024b83a8b4c69f31af5180d68cd96d53e9a12711d4fab9",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Honchkrow",
+      "dex": 430,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/430.ogg",
+      "original_sha256": "f29906a3d98ee7ed58baeb59e4e1b994430778c8da1f6d6a85aa04152ff54787",
+      "wav_sha256": "fca9e549c11a76ba37108de9c58698cb46b8670d9e35cff3e7b643ecd7fc8749",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Starly",
+      "dex": 396,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/396.ogg",
+      "original_sha256": "a8a96acd9b138a866869e5193236a73428ce865b91e8250feac60afc5b15f85f",
+      "wav_sha256": "dd5d1f172b53703fb4415e53ca5d46bf0b5455e2bf35328b97c9941df9aa4cb7",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Staravia",
+      "dex": 397,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/397.ogg",
+      "original_sha256": "74f7bfd4977d60c67b39fa6b0549c212584c3aa8130cd78fe537e12a116ca90c",
+      "wav_sha256": "2a415875e2e96a2314115afd7e1db5d868ffa06118f36fb01696c0e1a1b7c43d",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Swanna",
+      "dex": 581,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/581.ogg",
+      "original_sha256": "43e37fd1abdcbbfcc4087fcb118e3149925f1da640e400fdedf8f776568b4fea",
+      "wav_sha256": "f74d711edb38f1b5a722263c571561031003a156e89ef6057db1105df47909cb",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Braviary",
+      "dex": 628,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/628.ogg",
+      "original_sha256": "40462c06fc8fac0734e1b1f7de7c0b1dd43bacdfab209b1f59add799026e4d16",
+      "wav_sha256": "daf3f5bc447e2c8300f4d7aedb7e7444f2d18f171c3b1c71230983cf0b05f338",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Archeops",
+      "dex": 567,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/567.ogg",
+      "original_sha256": "7aa77d280862c47bfbc1ceabc92976a9359ca650d45cc427684cf4191c1b6d05",
+      "wav_sha256": "b93719431b06b4fcffaab2534b08d6e0ac7737c71be24fe72906289794488688",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Fletchling",
+      "dex": 661,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/661.ogg",
+      "original_sha256": "a0ede612ec38a7b6b22a122413a8cbc818860431aea3581a35a3446b287561c0",
+      "wav_sha256": "5252564cf5314a66068c2afbc1e241bd422bce8cdf688c528f65479f3db94967",
+      "gain_db": -5.9,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Fletchinder",
+      "dex": 662,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/662.ogg",
+      "original_sha256": "d4fb2beef484a809888f43ff33ff7c4d775afb5ff5f968d15f0e4e7d5013eef7",
+      "wav_sha256": "fa7d1ad71b4d9621a4bc2de9e749e54d948a06e81cf5e25a1b2f135de4d3cb70",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Hawlucha",
+      "dex": 701,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/701.ogg",
+      "original_sha256": "7c2b834a8d2b2817837dea0231c3c2af58cbbac61acb40446bc623752b28031f",
+      "wav_sha256": "8e77d249c86a5f481c659d021c7d274e2ad4cfc777910a233e894a2a08743d1a",
+      "gain_db": -5.5,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Yveltal",
+      "dex": 717,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/717.ogg",
+      "original_sha256": "7fdbb34994e77e5ed92e7849e4d5dccd53743c6ee5d2515fb1ef76f222b6da2f",
+      "wav_sha256": "8dd94e1810d5180733e4e3fb28ce88f4dca01b5a76679b9d530e1046d2cb28a5",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Volbeat",
+      "dex": 313,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/313.ogg",
+      "original_sha256": "86bf081986e6f729eade6b192bdc0b11faa852ff2613e0d2be103c680f3876a4",
+      "wav_sha256": "642437f94ae2ede03eec054d29cc350332b0e620ed64bd34999394341dd9de7d",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Illumise",
+      "dex": 314,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/314.ogg",
+      "original_sha256": "6a814ad0fdfb7d3c75aa5882814c02699ae99c8aa9fa82f1293a8d2f59f1fb3c",
+      "wav_sha256": "16cbc5854c0004530ccd8e9ec493266bc211a372978b1517c8009f015ba2121e",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Mothim",
+      "dex": 414,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/414.ogg",
+      "original_sha256": "b6f05d2d0f66fe42e0987a143dd793b586723a08ea6bbe866c4010ced6fb8a96",
+      "wav_sha256": "3aca6402f0ce1a5747c3d6e8ee283c249c6a0696e658283ef1cca3e839a20f4a",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Vivillon",
+      "dex": 666,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/666.ogg",
+      "original_sha256": "0f1e234f63dce1c048179508995bb8a61c2769f215beef2293922d8f9ac8f7ee",
+      "wav_sha256": "2173fddea5833ebe1bcfe824b94e1ebc24c348e5b42be5a31d2850963c040c12",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Ducklett",
+      "dex": 580,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/580.ogg",
+      "original_sha256": "9cd64cbcf529b17f3a96e64bba97be6055a1b53c62767432802d84acee7ca7ca",
+      "wav_sha256": "607c69ec2db081a56e30e60e87af8aa2e58107b3f97017ee4654a4567b375f0f",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Yanmega",
+      "dex": 469,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/469.ogg",
+      "original_sha256": "691ff648c7389c8ad4f84e57b811fbdbcc3065ca251192e4f93a1c4f1d222015",
+      "wav_sha256": "2d879013c66ff1e1b6303a36d6e2b10d596c70d8028c06c37a7b2de60e43388c",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Cramorant",
+      "dex": 845,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/845.ogg",
+      "original_sha256": "37e91bd3320996b29ca26b5ad645cbe0c72e8e37c42bb5bd950290a2ea9f1f79",
+      "wav_sha256": "2084e9c47185e58b87ab93ff830df7544ce18423e08e15060c6a8f1269dc0cfa",
+      "gain_db": -4.6,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Gligar",
+      "dex": 207,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/207.ogg",
+      "original_sha256": "dc660337d93a904122e38a58ae8916e33c1c3789118db454990ad8846362964d",
+      "wav_sha256": "9321b9eacecc118ee22f6e416df05178a13b6d81cbb8b47a9da4e87b005a6c70",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    },
+    {
+      "name": "Talonflame",
+      "dex": 663,
+      "source_url": "https://raw.githubusercontent.com/PokeAPI/cries/ef687b18f0ce17169b4b4c09175819f7ade92f0f/cries/pokemon/latest/663.ogg",
+      "original_sha256": "d96f5a93dc0046caeddaf84ff0f5c235f9bea51b515dacda55304a89c42d7c67",
+      "wav_sha256": "21ec008ed74688629e4c24195acb3c160e4c3aad8371ed4b69bc9d6bf820c31e",
+      "gain_db": -6.0,
+      "target_peak_dbfs": -6
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "star_requirements_per_biome": [
+    {
+      "biome": 83674629,
+      "required_stars": 10
+    }
+  ],
+  "config_info": {
+    "config_instance_id": 1277594598,
+    "config_type_id": "ProgressionConfig"
+  }
+}

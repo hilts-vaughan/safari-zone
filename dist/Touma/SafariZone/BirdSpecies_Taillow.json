@@ -1,0 +1,178 @@
+{
+  "do_not_spawn": false,
+  "display_name": {
+    "id": 1172816586
+  },
+  "description": {
+    "id": 2430400594
+  },
+  "special_pose_name": {
+    "id": 4000828578
+  },
+  "scientific_name": "Pok\u00e9mon #276 \u00b7 Generation 3",
+  "mockup_texture": {
+    "path": "mods://Touma/SafariZone/birds/Taillow/mockup.png"
+  },
+  "head_texture": {
+    "path": "mods://Touma/SafariZone/birds/Taillow/head.png"
+  },
+  "body_texture": {
+    "path": "mods://Touma/SafariZone/birds/Taillow/body.png"
+  },
+  "visuals_scene": {
+    "path": ""
+  },
+  "has_soaring_pose": false,
+  "visuals_config": {
+    "head_position_in_side_pose": {
+      "x": -0.35,
+      "y": 1.3250000000000002
+    },
+    "body_position_y": 0.525
+  },
+  "dimensions": {
+    "perched_front_back": {
+      "foot_offset": 0,
+      "head_offset": 0.48,
+      "center_offset": -0.2,
+      "size_offset": 0
+    },
+    "perched_side": {
+      "foot_offset": {
+        "X": -1.2,
+        "Y": 0.3
+      },
+      "head_offset": {
+        "X": -0.4,
+        "Y": 0.5
+      },
+      "center_offset": {
+        "X": -0.2,
+        "Y": -0.3
+      },
+      "size_offset": 0
+    },
+    "flying_side": {
+      "foot_offset": {
+        "X": -1.2,
+        "Y": 0.3
+      },
+      "head_offset": {
+        "X": -0.4,
+        "Y": 0.5
+      },
+      "center_offset": {
+        "X": -0.2,
+        "Y": -0.3
+      },
+      "size_offset": 0
+    },
+    "sideways": {
+      "foot_offset": {
+        "X": -1.2,
+        "Y": 0.3
+      },
+      "head_offset": {
+        "X": -0.4,
+        "Y": 0.5
+      },
+      "center_offset": {
+        "X": -0.2,
+        "Y": -0.3
+      },
+      "size_offset": 0
+    },
+    "soaring": {
+      "foot_offset": -0.86724466,
+      "head_offset": 0.32918468,
+      "center_offset": 0.0,
+      "size_offset": -0.059478473
+    }
+  },
+  "flap_animation_speed": 10,
+  "tweet_sounds": [
+    {
+      "path": "mods://Touma/SafariZone/birds/Taillow/call.wav"
+    }
+  ],
+  "flap_sound": {
+    "path": "res://Art/Sounds/bird-fly-continuous.ogg"
+  },
+  "peck_sound": {
+    "path": "res://Art/Sounds/Peck/peck_5.ogg"
+  },
+  "rarity": 2346948767,
+  "preferred_biomes": [
+    3043061464
+  ],
+  "preferred_seeds": [
+    2546266075
+  ],
+  "supported_perch_points_weights": [
+    {
+      "perch_point": 1069283163,
+      "weight": 0.3
+    },
+    {
+      "perch_point": 1334782406,
+      "weight": 0.6
+    },
+    {
+      "perch_point": 495710309,
+      "weight": 0.05
+    },
+    {
+      "perch_point": 4191031092,
+      "weight": 0.05
+    }
+  ],
+  "view_distance": 20,
+  "stat_fly_speed": 7.0,
+  "stat_ground_move_speed": 6.0,
+  "stat_linger_time": {
+    "base": 45,
+    "variance": 10
+  },
+  "stat_migration_time": {
+    "base": 70,
+    "variance": 20
+  },
+  "stat_preferred_group_size": 3,
+  "stat_tweet_wait_time": {
+    "base": 16.875,
+    "variance": 7.5
+  },
+  "stat_wander_time": {
+    "base": 0.9,
+    "variance": 0.25
+  },
+  "sex": 0,
+  "spawn_type": 1438849508,
+  "idle_animation": 0,
+  "bird_animation_override": [],
+  "movement_type": 0,
+  "should_sink_when_flying": false,
+  "move_head_when_tweeting": false,
+  "visuals_scale_factor": 0.65,
+  "whistle_colors": [
+    {
+      "red": 0.23921568627450981,
+      "green": 0.34509803921568627,
+      "blue": 0.47058823529411764
+    },
+    {
+      "red": 0.7098039215686275,
+      "green": 0.2784313725490196,
+      "blue": 0.28627450980392155
+    },
+    {
+      "red": 0.9450980392156862,
+      "green": 0.8941176470588236,
+      "blue": 0.8156862745098039
+    }
+  ],
+  "config_info": {
+    "config_instance_id": 3183646805,
+    "config_type_id": "BirdSpecies"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    165,
+    115
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Beautifly",
+  "body_position_y": 0.64,
+  "alignment_policy": "all-rest-pose opaque bounds; insect hover clearance"
+}

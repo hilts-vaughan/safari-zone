@@ -1,0 +1,12 @@
+{
+  "head_center": [
+    165,
+    120
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Yveltal",
+  "body_position_y": 0.795,
+  "ground_alignment_note": "Native body/head origin raised to the lowest resting silhouette point; some side views may float slightly because packed views differ.",
+  "alignment_policy": "per-view registration",
+  "head_turn_alignment": "All head frames share the side-head neck baseline; independent head/body turns supported"
+}

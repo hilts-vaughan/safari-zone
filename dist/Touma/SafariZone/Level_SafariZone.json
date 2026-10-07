@@ -1,0 +1,59 @@
+{
+  "name": {
+    "id": 2464615008
+  },
+  "show_in_level_select": true,
+  "sort_order": 30,
+  "scene": {
+    "path": "mods://Touma/SafariZone/SafariZone.tscn"
+  },
+  "main_menu_scene": {
+    "path": ""
+  },
+  "skybox_prefab": {
+    "path": "res://Scenes/FunctionalObjects/GooseLakeSkyFunctional.tscn"
+  },
+  "sky_color_top": {
+    "red": 0.56078434,
+    "green": 0.9098039,
+    "blue": 1.0
+  },
+  "sky_color_horizon": {
+    "red": 0.7764706,
+    "green": 0.88235295,
+    "blue": 0.94509804
+  },
+  "bird_population_cap": 60,
+  "biomes": [
+    3043061464,
+    3865044465,
+    83674629,
+    1058942998
+  ],
+  "progression": 1277594598,
+  "map": {
+    "path": "mods://Touma/SafariZone/map.png"
+  },
+  "guidebook_texture_front": {
+    "path": "res://Art/Player/Book/BookMeshTexture.png"
+  },
+  "guidebook_texture_back": {
+    "path": "res://Art/Player/Book/BookMeshTextureBack.png"
+  },
+  "guidebook_inner_color": {
+    "red": 0.27058825,
+    "green": 0.35686275,
+    "blue": 0.5294118
+  },
+  "at_least_one_bird_achievement": 0,
+  "all_poses_achievement": 0,
+  "all_3_star_achievement": 0,
+  "all_shinies_achievement": 0,
+  "one_photo_per_biome_achievement": 0,
+  "all_points_of_interest": 0,
+  "required_dlc": 0,
+  "config_info": {
+    "config_instance_id": 1861378932,
+    "config_type_id": "Level"
+  }
+}

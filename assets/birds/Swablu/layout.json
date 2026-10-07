@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    201,
+    127
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Swablu",
+  "body_position_y": 0.065,
+  "alignment_policy": "per-view registration"
+}

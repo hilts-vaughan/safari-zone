@@ -1,0 +1,7 @@
+{
+  "species": "Butterfree",
+  "status": "generated",
+  "method": "built-in Imagegen",
+  "transparent_background": true,
+  "prompt": "Use case: stylized-concept. Create Butterfree Pokémon component artwork for a Flock Around game mod. Smooth rounded flat solid-color cartoon shapes, clean curves, no exterior outline, minimal shading, no texture. Correct recognizable anatomy: purple rounded head and segmented slim purple body, two thin black antennae ending in knobs, large red oval eyes, small blue mouth and blue hands and feet, two pairs of broad white butterfly wings with dark charcoal rims and bold simple black vein patterns. No bird beak or feathers. Transparent square canvas, regular THREE BY THREE grid with generous empty gutters, exactly nine isolated parts. Top row: separate head left profile, separate head front, separate head back; antennae included, no wings. Middle row: headless left profile body with wings folded upright at rest; same headless body flying wings up; same headless body flying wings down. Bottom row: headless front body with wings open; headless back body with wings open; assembled complete left-profile Butterfree. Body parts include small blue feet/hands but no head, eyes, mouth or antennae; short purple neck attachment at the top. Preserve the white wings' dark rim and veins in all five body views. All parts fit inside their own cell, no clipped antennae or wings, no text labels, shadows, scenery or water. Consistent anatomical sizes across views."
+}

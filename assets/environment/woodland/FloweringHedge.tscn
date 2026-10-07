@@ -1,0 +1,202 @@
+[gd_scene format=4 uid="uid://ci4ahlueyooub"]
+
+[ext_resource type="Texture2D" path="res://Art/Textures/BushLeavesA.png" id="1_nb8j7"]
+[ext_resource type="PackedScene" path="res://Art/Decorations/Foliage/SimpleBushA.glb" id="2_eca6r"]
+[ext_resource type="Material" path="res://Art/Materials/hedgeMaterial.tres" id="3_55o53"]
+
+[sub_resource type="StandardMaterial3D" id="S3"]
+albedo_color = Color(0.16, 0.34, 0.23, 1)
+albedo_texture = ExtResource("1_nb8j7")
+roughness = 0.95
+uv1_scale = Vector3(7, 5, 7)
+
+[sub_resource type="SphereMesh" id="S10"]
+radius = 1.0
+height = 2.0
+radial_segments = 12
+rings = 6
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ur6ae"]
+resource_name = "bush"
+cull_mode = 2
+albedo_color = Color(0.54901767, 0.74509835, 0.4392159, 1)
+roughness = 0.5
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_giixt"]
+_surfaces = [{
+"aabb": AABB(-0.5, 0.005011499, -0.735, 1, 1, 1.47),
+"format": 34896613377,
+"index_count": 132,
+"index_data": PackedByteArray("AAABAAIAAwAAAAIAAgAEAAMABQAAAAMABgAEAAIABgACAAEABwADAAQABQADAAcABAAGAAgAAAAFAAkACgAHAAQABAAIAAoABwALAAUACgALAAcACQAFAAwABQALAAwAAAAJAA0ADQABAAAADAAOAAkADgANAAkADwAMAAsADwAOAAwACwAKABAACwAQAA8AEAAKABEAEQAKAAgADwAQABIAEQASABAADgAPABMAEwAPABIAFAANAA4ADgATABQAFAABAA0AEgAVABMAFQAUABMAEQAVABIAAQAUABYAFgAUABUAAQAWAAYAFQARABcAFQAXABYABgAWABcAFwARAAgACAAGABcA"),
+"name": "bush",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("XD0AAP//AAAAAAAAosIAAAAAXD3//wAAAACiwv//AAAAAP//osIAAKLC/////wAAAAAAAFw9AABcPf////8AAAAAosIAAAAA//9cPf//AAAAAP//XD0AAP////+iwgAA//+iwv//AACiwgAA//8AAP//AACiwgAA/////1w9AACiwv//AAAAAFw9//8AAAAA//+iwgAAAAD//1w9AAAAAP//AABcPQAAosIAAAAAAABcPQAAAAAAAAAAXD0AAAAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_oxd4l"]
+resource_name = "SimpleBushA_Cube_007"
+_surfaces = [{
+"aabb": AABB(-0.5, 0.005011499, -0.735, 1, 1, 1.47),
+"attribute_data": PackedByteArray("wVStg8FUVqGTQK2DkwCtg8EUrYOTAFahwVTC4cFUa/+TQGv/kwBr/5MAwuHBFGv/FqrC4Raqa//olWv/6FVr/+hVwuEWamv/FqqtgxaqVqHola2D6FVWoehVrYMWaq2DwVTcZJNAxwbBVHEkkwBxJMEUxwbBFIWCk0CFgpMA3GTBVMLhk0Ctg8FUVqGTAFahwRStg8EUa/+TQGv/kwDC4T3rPas9q2u/a789q2u/a/89qz3ra/8962v/a78962v/FqrcZOiVxwYWqnEk6FVxJBZqxwYWaoWC6JWFguhV3GQ96+hVPasWamu/6FVrvxaqPavolWv/6JVr/xZqPesWqhaqwuHola2DFqpWoehVVqEWaq2DFmpr/+iVa//oVcLh"),
+"format": 34896613399,
+"index_count": 132,
+"index_data": PackedByteArray("AAABAAIAAwAEAAUABgAHAAgACQAKAAsADAANAA4ADwAQABEAEgATABQAFQAWABcAGAAZABoAGAAbABkAGQAbABwAGwAYAB0AHQAYAB4AGwAdAB8AIAAhACIAIAAjACEAIQAjACQAIwAgACUAJQAgACYAIwAlACcAKAApACoAKAArACkAKQArACwAKwAoAC0ALQAoAC4AKwAtAC8AMAAxADIAMAAzADEAMQAzADQAMwAwADUANQAwADYAMwA1ADcAOAA5ADoAOAA7ADkAOQA7ADwAOwA4AD0APQA4AD4AOwA9AD8AQABBAEIAQABDAEEAQQBDAEQAQwBAAEUARQBAAEYAQwBFAEcA"),
+"material": SubResource("StandardMaterial3D_ur6ae"),
+"name": "bush",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 72,
+"vertex_data": PackedByteArray("XD0AAP//z7YAAAAAosLPtgAAXD3//8+2XD3/////HOUAAKLC//8c5QAA//+iwhzlAAAAAFw9G9ZcPQAAAAAb1gAAXD0AABvWXD3//wAASO8AAP//XD1I7wAAosIAAEjv//8AAKLCHOWiwgAA//8c5f//XD3//xzlosL/////z7b/////osLPtv//osL//8+2osIAAAAASO///wAAXD1I7///XD0AAEjv/////1w9G9aiwv//AAAb1v//osIAABvWAAAAAKLC//9cPQAAAAD//wAAAABcPf////8AAFw9//+iwgAAAAD//6LCAAD/////XD0AAP///////wAAosL//wAAAABcPVTVAABcPf//VNUAAAAAosJU1QAA//+iwlTVAACiwv//VNUAAKLCAABU1QAAXD0AAFTVAAD//1w9VNVcPQAA////////XD3/////osIAAP////+iwv//////////osL/////AACiwv////8AAFw9/////1w9/////////////6LC/7+iwv//AAD/v/////9cPf+/AAD//1w9/79cPf//AAD/v1w9//////+/osL//////78AAP//osL/v6LCAAAAAP//AABcPQAA//9cPQAAAAD//1w9//8AAP//AACiwgAA/////6LCAAD/////XD0AAP//osL//wAA/////wAAosJU1f//XD0AAFTV//8AAFw9VNX/////XD1U1f//osIAAFTV//+iwv//VNX//1w9//9U1f////+iwlTVQUKSmUFCkplBQpKZWm6Xqlpul6pabpeqkDOon5AzqJ+QM6ifC2anvgtmp74LZqe+pJFnVaSRZ1WkkWdVvb1sZr29bGa9vWxm85lXQfOZV0HzmVdBbsxWYG7MVmBuzFZg/3//P/9//z//f/8//3//P/9//z//f/8//3//P/9//z9UVaqqVFWqqlRVqqpUVaqqVFWqqlRVqqpUVaqqVFWqqv9//3//f/9//3//f/9//3//f/9//3//f/9//3//f/9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3/+//9/////f6qqVFWqqlRVqqpVVaqqVFWpqlRVqqpUVaqqVFWqqlRV")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_giixt")
+
+[sub_resource type="BoxShape3D" id="S12"]
+size = Vector3(2.8, 1.35, 2.4)
+
+[sub_resource type="StandardMaterial3D" id="S5"]
+albedo_color = Color(0.91, 0.59, 0.66, 1)
+roughness = 0.95
+
+[sub_resource type="SphereMesh" id="S11"]
+radius = 0.065
+height = 0.13
+radial_segments = 6
+rings = 3
+
+[sub_resource type="StandardMaterial3D" id="S4"]
+albedo_color = Color(0.97, 0.96, 0.82, 1)
+roughness = 0.95
+
+[node name="FloweringHedge0" type="Node3D" unique_id=1643156431]
+
+[node name="OpaqueLeaves" type="MeshInstance3D" parent="." unique_id=1354997946]
+transform = Transform3D(1.25, 0, 0, 0, 0.62, 0, 0, 0, 1.2, 0, 0.58, 0)
+material_override = SubResource("S3")
+mesh = SubResource("S10")
+
+[node name="LeafSkin" parent="." unique_id=1118814976 instance=ExtResource("2_eca6r")]
+transform = Transform3D(2.5, 0, 0, 0, 1.25, 0, 0, 0, 2.25, 0, 0, 0)
+
+[node name="Cube" type="MeshInstance3D" parent="LeafSkin" unique_id=376795630]
+material_override = ExtResource("3_55o53")
+mesh = SubResource("ArrayMesh_oxd4l")
+skeleton = NodePath("")
+
+[node name="Body" type="StaticBody3D" parent="." unique_id=1835717174]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.67, 0)
+collision_layer = 11
+collision_mask = 0
+
+[node name="Shape" type="CollisionShape3D" parent="Body" unique_id=2048005581]
+shape = SubResource("S12")
+
+[node name="Blossom0" type="MeshInstance3D" parent="." unique_id=1063454530]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.251462, 1.20747, -1.38002)
+material_override = SubResource("S5")
+mesh = SubResource("S11")
+
+[node name="Blossom1" type="MeshInstance3D" parent="." unique_id=1005242142]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.46224, 0.6926, -0.749405)
+material_override = SubResource("S4")
+mesh = SubResource("S11")
+
+[node name="Blossom2" type="MeshInstance3D" parent="." unique_id=2046468692]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.117703, 0.924754, 1.52311)
+material_override = SubResource("S4")
+mesh = SubResource("S11")
+
+[node name="Blossom3" type="MeshInstance3D" parent="." unique_id=1897262822]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.37992, 1.35, -0.185816)
+material_override = SubResource("S4")
+mesh = SubResource("S11")
+
+[node name="Blossom4" type="MeshInstance3D" parent="." unique_id=201466346]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.51543, 1.15146, -0.524871)
+material_override = SubResource("S4")
+mesh = SubResource("S11")
+
+[node name="Blossom5" type="MeshInstance3D" parent="." unique_id=385293394]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.563803, 1.21132, -1.30246)
+material_override = SubResource("S5")
+mesh = SubResource("S11")
+
+[node name="Blossom6" type="MeshInstance3D" parent="." unique_id=1302100865]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.35459, 0.990055, 0.925609)
+material_override = SubResource("S4")
+mesh = SubResource("S11")
+
+[node name="Blossom7" type="MeshInstance3D" parent="." unique_id=693853578]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.04374, 1.35, 0.567518)
+material_override = SubResource("S4")
+mesh = SubResource("S11")
+
+[node name="Blossom8" type="MeshInstance3D" parent="." unique_id=790157049]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.499501, 1.35, 1.14029)
+material_override = SubResource("S4")
+mesh = SubResource("S11")
+
+[node name="Blossom9" type="MeshInstance3D" parent="." unique_id=1344704874]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.701086, 1.23695, 1.2243)
+material_override = SubResource("S4")
+mesh = SubResource("S11")
+
+[node name="Blossom10" type="MeshInstance3D" parent="." unique_id=1039760302]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4702, 0.954614, -0.791174)
+material_override = SubResource("S5")
+mesh = SubResource("S11")
+
+[node name="Blossom11" type="MeshInstance3D" parent="." unique_id=466095000]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.34778, 0.568604, 0.781942)
+material_override = SubResource("S4")
+mesh = SubResource("S11")
+
+[node name="Blossom12" type="MeshInstance3D" parent="." unique_id=1037053705]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.449519, 1.35, 0.989814)
+material_override = SubResource("S4")
+mesh = SubResource("S11")
+
+[node name="Blossom13" type="MeshInstance3D" parent="." unique_id=703248298]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0932083, 0.640978, -1.46829)
+material_override = SubResource("S4")
+mesh = SubResource("S11")
+
+[node name="Blossom14" type="MeshInstance3D" parent="." unique_id=1464857259]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0915926, 1.35, 0.999849)
+material_override = SubResource("S4")
+mesh = SubResource("S11")
+
+[node name="Blossom15" type="MeshInstance3D" parent="." unique_id=539450070]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.11505, 0.973207, 1.15422)
+material_override = SubResource("S5")
+mesh = SubResource("S11")
+
+[node name="Blossom16" type="MeshInstance3D" parent="." unique_id=873008133]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.29814, 0.862541, 1.01127)
+material_override = SubResource("S4")
+mesh = SubResource("S11")
+
+[node name="Blossom17" type="MeshInstance3D" parent="." unique_id=1565432528]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.17428, 0.713524, -1.08589)
+material_override = SubResource("S4")
+mesh = SubResource("S11")
+
+[node name="Blossom18" type="MeshInstance3D" parent="." unique_id=353248510]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.54639, 0.601353, -0.474639)
+material_override = SubResource("S4")
+mesh = SubResource("S11")
+
+[node name="Blossom19" type="MeshInstance3D" parent="." unique_id=1226982211]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.22101, 1.35, 0.582974)
+material_override = SubResource("S4")
+mesh = SubResource("S11")
+
+[node name="Blossom20" type="MeshInstance3D" parent="." unique_id=2091002233]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0051, 0.96884, -1.23189)
+material_override = SubResource("S5")
+mesh = SubResource("S11")
+
+[editable path="LeafSkin"]

@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    165,
+    120
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Taillow",
+  "body_position_y": 0.545,
+  "alignment_policy": "all-rest-pose opaque bounds"
+}

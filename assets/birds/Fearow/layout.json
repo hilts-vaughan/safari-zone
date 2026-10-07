@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    144,
+    74
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Fearow",
+  "body_position_y": 0.025,
+  "alignment_policy": "per-view registration"
+}

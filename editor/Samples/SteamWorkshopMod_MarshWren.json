@@ -1,0 +1,34 @@
+{
+  "title": {
+    "id": 4245228117
+  },
+  "description": {
+    "id": 4245228117
+  },
+  "name_and_description_supported_locales": [
+    632594830,
+    3178793665,
+    153734008,
+    3773531450,
+    1348086716,
+    4228018646,
+    2821021376,
+    2049019904,
+    2900432950
+  ],
+  "workshop_item_id": 3807372151,
+  "required_items": [],
+  "content": "mods://NotExplosive/MarshWren",
+  "tags": [
+    "Birds",
+    "Realistic",
+    "Goose Lake"
+  ],
+  "preview_image": {
+    "path": "mods://NotExplosive/MarshWren/marsh_wren_thumb.png"
+  },
+  "config_info": {
+    "config_instance_id": 3014115565,
+    "config_type_id": "SteamWorkshopMod"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "retired": [
+    "Articuno",
+    "Blaziken",
+    "Combusken",
+    "Golduck",
+    "Lugia",
+    "Moltres",
+    "Pidgeotto",
+    "Skarmory",
+    "Torchic"
+  ],
+  "added": [
+    "Chatot",
+    "Honchkrow",
+    "Starly",
+    "Staravia",
+    "Swanna",
+    "Braviary",
+    "Archeops",
+    "Fletchling",
+    "Fletchinder",
+    "Hawlucha",
+    "Yveltal"
+  ],
+  "notes": "All successful Gen 4\u20136 candidates integrated. IDs of unchanged species preserved. Nine legacy sources retained outside release."
+}

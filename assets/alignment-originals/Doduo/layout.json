@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    197,
+    67
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Doduo",
+  "body_position_y": 0.055,
+  "alignment_policy": "all-rest-pose opaque bounds"
+}

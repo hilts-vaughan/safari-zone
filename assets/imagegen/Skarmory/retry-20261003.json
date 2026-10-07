@@ -1,0 +1,7 @@
+{
+  "method": "built-in Imagegen",
+  "status": "generation_rejected",
+  "prompt": "Create Skarmory Pokémon sprite components for a Flock Around mod. Smooth rounded flat-color cartoon style, simple clean shapes and minimal shading. Distinct anatomy: lean silver armored bird with segmented steel neck, triangular head crest, long pointed beak, yellow eyes, articulated metallic wings with red undersides, thin legs and a long narrow tail. Transparent square canvas divided into a regular THREE BY THREE grid with wide gutters and no labels. Top row: detached head left profile, head front, head back. Middle row: headless left-profile body with folded wings, headless left-profile body wings raised, headless left-profile body wings lowered. Bottom row: headless front body folded wings, headless back body folded wings, complete assembled left-profile character. The five bodies have only a short neck attachment and no primary head, eyes, beak or crest. Match sizes and palettes across cells, all tips inside cells. No scenery, cast shadows, glow, text, borders or gradients. Body and head are separate animated layers, not complete characters repeated in every cell.",
+  "transparent_background": true,
+  "error": "Output moderation rejection; request ID 4fca10bc-6ce7-4896-9515-de4297569618. Species will be replaced rather than requesting a disguised version."
+}

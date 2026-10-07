@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    178,
+    72
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Ho-Oh",
+  "body_position_y": 0.265,
+  "alignment_policy": "all-rest-pose opaque bounds"
+}

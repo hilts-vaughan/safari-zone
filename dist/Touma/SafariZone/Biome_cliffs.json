@@ -1,0 +1,39 @@
+{
+  "footstep_sounds": 3729711969,
+  "name": {
+    "id": 845296157
+  },
+  "icon": {
+    "path": "res://Art/UI/BiomeIcons/IconBluffs.png"
+  },
+  "map": {
+    "path": "res://Art/UI/MapBluffs.png"
+  },
+  "special_items": [],
+  "primary_color": {
+    "red": 0.7137254901960784,
+    "green": 0.6784313725490196,
+    "blue": 0.5568627450980392
+  },
+  "secondary_color": {
+    "red": 0.49960784313725487,
+    "green": 0.47490196078431374,
+    "blue": 0.3898039215686274
+  },
+  "environmental_sound": {
+    "path": "res://Art/Sounds/Vitor/sfx_ambience_bluffs_loop.ogg"
+  },
+  "water_environmental_sound": {
+    "path": ""
+  },
+  "shop_roof_texture": {
+    "path": "res://Art/Shop/ShopRoofBluffs.png"
+  },
+  "totem_texture": {
+    "path": "res://Art/Player/Items/WarpRocks/WarpRockBluffs.png"
+  },
+  "config_info": {
+    "config_instance_id": 1058942998,
+    "config_type_id": "Biome"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    194,
+    75
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Delibird",
+  "body_position_y": 0.125,
+  "alignment_policy": "all-rest-pose opaque bounds"
+}

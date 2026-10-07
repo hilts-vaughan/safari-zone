@@ -1,0 +1,39 @@
+{
+  "footstep_sounds": 3729711969,
+  "name": {
+    "id": 159433742
+  },
+  "icon": {
+    "path": "res://Art/BiomeIcons/IconEvergreen.png"
+  },
+  "map": {
+    "path": "res://Art/UI/MapWoodlands.png"
+  },
+  "special_items": [],
+  "primary_color": {
+    "red": 0.3137254901960784,
+    "green": 0.49019607843137253,
+    "blue": 0.3803921568627451
+  },
+  "secondary_color": {
+    "red": 0.21960784313725487,
+    "green": 0.34313725490196073,
+    "blue": 0.26627450980392153
+  },
+  "environmental_sound": {
+    "path": "res://Art/Sounds/Vitor/sfx_ambience_woodlands_loop.ogg"
+  },
+  "water_environmental_sound": {
+    "path": "res://Art/Sounds/Vitor/sfx_ambience_largepond_loop.ogg"
+  },
+  "shop_roof_texture": {
+    "path": "res://Art/Shop/ShopRoofWoodlands.png"
+  },
+  "totem_texture": {
+    "path": "res://Art/Player/Items/WarpRocks/WarpRockWoodlands.png"
+  },
+  "config_info": {
+    "config_instance_id": 83674629,
+    "config_type_id": "Biome"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "species": "Pelipper",
+  "status": "generated",
+  "method": "built-in Imagegen",
+  "transparent_background": true,
+  "prompt": "Correct the five BODY components on this Pelipper 3x3 sprite-component board. The huge yellow bill/pouch belongs entirely to the separate HEAD artwork in the top row. Remove the duplicated yellow pouch from ALL FIVE body components (middle row three bodies, bottom row left and middle bodies). Those five bodies should be a small compact WHITE rear torso, white neck attachment at its upper left, white wings with three blue rounded tips, a short tail and two blue webbed feet. No yellow and no bill on any body component. Keep the three top-row heads with their giant yellow pouch, blue cap and slit eyes EXACTLY as they are, and retain the full assembled Pelipper at bottom right as the anatomical reference. Body poses remain side folded wings, side wings raised, side wings lowered, front, back. Same regular 3x3 grid, wide transparent gutters, completely transparent background, no text or labels, same simple flat smooth 2D style. The body is visibly small behind the head/pouch in the assembled character; preserve that size relationship."
+}

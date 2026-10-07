@@ -1,0 +1,10 @@
+{
+  "head_center": [
+    165,
+    115
+  ],
+  "method": "Imagegen components, cropped and uniformly registered",
+  "source": "assets/imagegen/Dustox",
+  "body_position_y": 0.6,
+  "alignment_policy": "all-rest-pose opaque bounds; insect hover clearance"
+}
