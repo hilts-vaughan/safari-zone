@@ -119,12 +119,14 @@ def build(g):
  for i,(x,z) in enumerate(GROUND):prefab('HighlandsForaging'+str(i),'FunctionalObjects/HopGroundHangout',(x,0.06,z),(1.4,1,1.4))
  from highlands_pavilion import build as build_pavilion
  stats['pavilion']=build_pavilion(g)
+ from highlands_bird_nook import build as build_nook, reserved as nook_reserved
+ stats['bird_nook']=build_nook(g)
  # Tall grass and flowers throughout lower meadow and broad terrace interiors.
  rng=random.Random(510226);grass=[];flowers=[]
  for ix in range(153):
   for iz in range(139):
    x=22+ix*.7;z=-108+iz*.7;p=(x,z);h=terrain_height(p)
-   if rest_reserved(p):continue
+   if rest_reserved(p) or nook_reserved(p):continue
    if math.dist(p,(77,-48))<8 or any(math.dist(p,q)<3 for q in [(53,-43),(60,-46)]):continue
    if not contains(p) or not inside(p) or pond_contains(p,2) or path_distance(p)<3.6:continue
    if any(math.dist(p,q)<15 for q in FACILITIES.values()):continue
