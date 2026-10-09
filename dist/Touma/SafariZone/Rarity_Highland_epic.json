@@ -1,0 +1,16 @@
+{
+  "score_value": 30,
+  "count_per_pool": 15,
+  "name": {
+    "id": 554001802
+  },
+  "Color": {
+    "red": 0.7508313,
+    "green": 0.43233472,
+    "blue": 0.96875
+  },
+  "config_info": {
+    "config_instance_id": 2287042860,
+    "config_type_id": "Rarity"
+  }
+}

@@ -6,5 +6,13 @@
   "method": "Imagegen components, cropped and uniformly registered",
   "source": "assets/imagegen/Zapdos",
   "body_position_y": 0.105,
-  "alignment_policy": "per-view registration"
+  "alignment_policy": "per-view registration",
+  "independent_turn_body_translation_pixels": [
+    -6,
+    0,
+    -6,
+    -6,
+    -6
+  ],
+  "head_turn_alignment": "All head frames share the side-head neck baseline; independent head/body turns supported"
 }

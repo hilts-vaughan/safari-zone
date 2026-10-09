@@ -39,8 +39,8 @@
     },
     "perched_side": {
       "foot_offset": {
-        "X": -1.2,
-        "Y": 0.3
+        "X": 0,
+        "Y": 0
       },
       "head_offset": {
         "X": -0.4,
@@ -54,8 +54,8 @@
     },
     "flying_side": {
       "foot_offset": {
-        "X": -1.2,
-        "Y": 0.3
+        "X": 0,
+        "Y": 0
       },
       "head_offset": {
         "X": -0.4,
@@ -69,8 +69,8 @@
     },
     "sideways": {
       "foot_offset": {
-        "X": -1.2,
-        "Y": 0.3
+        "X": 0,
+        "Y": 0
       },
       "head_offset": {
         "X": -0.4,

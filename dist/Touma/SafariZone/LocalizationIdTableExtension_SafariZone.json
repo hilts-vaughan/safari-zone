@@ -25,6 +25,22 @@
       "string": "touma.safarizone.rarity.pondregular"
     },
     {
+      "id": 1142404296,
+      "string": "touma.safarizone.rarity.highland.common"
+    },
+    {
+      "id": 851390678,
+      "string": "touma.safarizone.rarity.highland.uncommon"
+    },
+    {
+      "id": 2977606980,
+      "string": "touma.safarizone.rarity.highland.rare"
+    },
+    {
+      "id": 554001802,
+      "string": "touma.safarizone.rarity.highland.epic"
+    },
+    {
       "id": 2146293448,
       "string": "touma.safarizone.bird.Pidgey.name"
     },

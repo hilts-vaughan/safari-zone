@@ -42,11 +42,11 @@
 [ext_resource type="Script" path="res://Scripts/Core/DevelopOTron.cs" id="40"]
 [ext_resource type="Texture2D" path="res://EXTERNAL/Touma/SafariZone/Center/bird-photo.png" id="41"]
 [ext_resource type="Texture2D" path="res://EXTERNAL/Touma/SafariZone/Center/reserve-map.png" id="42"]
-[ext_resource type="Texture2D" path="res://EXTERNAL/Touma/SafariZone/Center/poster-hoenn.png" id="43"]
-[ext_resource type="Texture2D" path="res://EXTERNAL/Touma/SafariZone/Center/poster-wildlife.png" id="44"]
-[ext_resource type="Script" path="res://Scripts/Core/PlayerSpawnPoint.cs" id="45"]
-[ext_resource type="PackedScene" path="res://Scenes/Decorations/CatTail3DA.tscn" id="46"]
-[ext_resource type="PackedScene" path="res://EXTERNAL/Touma/SafariZone/Woodland/FloweringHedge.tscn" id="47"]
+[ext_resource type="Texture2D" path="res://EXTERNAL/Touma/SafariZone/Center/poster-wildlife.png" id="43"]
+[ext_resource type="Script" path="res://Scripts/Core/PlayerSpawnPoint.cs" id="44"]
+[ext_resource type="PackedScene" path="res://Scenes/Decorations/CatTail3DA.tscn" id="45"]
+[ext_resource type="PackedScene" path="res://EXTERNAL/Touma/SafariZone/Woodland/FloweringHedge.tscn" id="46"]
+[ext_resource type="PackedScene" path="res://Scenes/CoreGameplay/QuestBoard.tscn" id="47"]
 [ext_resource type="Texture2D" path="res://EXTERNAL/Touma/SafariZone/Frontage/wildflowers.png" id="48"]
 [ext_resource type="Mesh" path="res://EXTERNAL/Touma/SafariZone/Terrain/GardenSculptedRidgeRock.obj" id="49"]
 [ext_resource type="Mesh" path="res://EXTERNAL/Touma/SafariZone/Terrain/GardenSculptedRidgeTurf.obj" id="50"]
@@ -2744,7 +2744,7 @@ cull_mode = 2
 size = Vector2(2.43, 2.43)
 
 [sub_resource type="StandardMaterial3D" id="S775"]
-albedo_texture = ExtResource("44")
+albedo_texture = ExtResource("43")
 roughness = 0.9
 cull_mode = 2
 
@@ -32516,7 +32516,7 @@ outline_size = 2
 
 [node name="PlayerSpawn" type="Node3D" parent="."]
 position = Vector3(-70, 1.2, 69)
-script = ExtResource("45")
+script = ExtResource("44")
 rotation_degrees = Vector3(0, 180, 0)
 
 [node name="CenterArrival" type="Node3D" parent="."]
@@ -32813,7 +32813,7 @@ shape = SubResource("S904")
 position = Vector3(-49.9, 0.45, 96.0)
 scale = Vector3(0.85, 1, 0.5)
 
-[node name="ArrivalReed0" parent="." instance=ExtResource("46")]
+[node name="ArrivalReed0" parent="." instance=ExtResource("45")]
 position = Vector3(-49.9, 0, 96.0)
 scale = Vector3(0.8, 0.9, 0.8)
 
@@ -32845,7 +32845,7 @@ collision_mask = 0
 [node name="Shape" type="CollisionShape3D" parent="CenterArrival/PondStone2/Body"]
 shape = SubResource("S908")
 
-[node name="ArrivalReed2" parent="." instance=ExtResource("46")]
+[node name="ArrivalReed2" parent="." instance=ExtResource("45")]
 position = Vector3(-51.027099916898614, 0, 98.40585163767742)
 scale = Vector3(0.8, 0.9, 0.8)
 
@@ -32881,7 +32881,7 @@ shape = SubResource("S912")
 position = Vector3(-54.05055340768661, 0.45, 100.04786237932761)
 scale = Vector3(0.85, 1, 0.5)
 
-[node name="ArrivalReed4" parent="." instance=ExtResource("46")]
+[node name="ArrivalReed4" parent="." instance=ExtResource("45")]
 position = Vector3(-54.05055340768661, 0, 100.04786237932761)
 scale = Vector3(0.8, 0.9, 0.8)
 
@@ -32913,7 +32913,7 @@ collision_mask = 0
 [node name="Shape" type="CollisionShape3D" parent="CenterArrival/PondStone6/Body"]
 shape = SubResource("S916")
 
-[node name="ArrivalReed6" parent="." instance=ExtResource("46")]
+[node name="ArrivalReed6" parent="." instance=ExtResource("45")]
 position = Vector3(-58.01043535174033, 0, 100.40470541637015)
 scale = Vector3(0.8, 0.9, 0.8)
 
@@ -32949,7 +32949,7 @@ shape = SubResource("S920")
 position = Vector3(-61.64951121101152, 0.45, 99.36308560587645)
 scale = Vector3(0.85, 1, 0.5)
 
-[node name="ArrivalReed8" parent="." instance=ExtResource("46")]
+[node name="ArrivalReed8" parent="." instance=ExtResource("45")]
 position = Vector3(-61.64951121101152, 0, 99.36308560587645)
 scale = Vector3(0.8, 0.9, 0.8)
 
@@ -32981,7 +32981,7 @@ collision_mask = 0
 [node name="Shape" type="CollisionShape3D" parent="CenterArrival/PondStone10/Body"]
 shape = SubResource("S924")
 
-[node name="ArrivalReed10" parent="." instance=ExtResource("46")]
+[node name="ArrivalReed10" parent="." instance=ExtResource("45")]
 position = Vector3(-63.81240011266293, 0, 97.25370987794436)
 scale = Vector3(0.8, 0.9, 0.8)
 
@@ -33017,7 +33017,7 @@ shape = SubResource("S928")
 position = Vector3(-63.81240011266293, 0.45, 94.74629012205564)
 scale = Vector3(0.85, 1, 0.5)
 
-[node name="ArrivalReed12" parent="." instance=ExtResource("46")]
+[node name="ArrivalReed12" parent="." instance=ExtResource("45")]
 position = Vector3(-63.81240011266293, 0, 94.74629012205564)
 scale = Vector3(0.8, 0.9, 0.8)
 
@@ -33049,7 +33049,7 @@ collision_mask = 0
 [node name="Shape" type="CollisionShape3D" parent="CenterArrival/PondStone14/Body"]
 shape = SubResource("S932")
 
-[node name="ArrivalReed14" parent="." instance=ExtResource("46")]
+[node name="ArrivalReed14" parent="." instance=ExtResource("45")]
 position = Vector3(-61.64951121101153, 0, 92.63691439412355)
 scale = Vector3(0.8, 0.9, 0.8)
 
@@ -33085,7 +33085,7 @@ shape = SubResource("S936")
 position = Vector3(-58.01043535174033, 0.45, 91.59529458362985)
 scale = Vector3(0.85, 1, 0.5)
 
-[node name="ArrivalReed16" parent="." instance=ExtResource("46")]
+[node name="ArrivalReed16" parent="." instance=ExtResource("45")]
 position = Vector3(-58.01043535174033, 0, 91.59529458362985)
 scale = Vector3(0.8, 0.9, 0.8)
 
@@ -33117,7 +33117,7 @@ collision_mask = 0
 [node name="Shape" type="CollisionShape3D" parent="CenterArrival/PondStone18/Body"]
 shape = SubResource("S940")
 
-[node name="ArrivalReed18" parent="." instance=ExtResource("46")]
+[node name="ArrivalReed18" parent="." instance=ExtResource("45")]
 position = Vector3(-54.05055340768661, 0, 91.95213762067239)
 scale = Vector3(0.8, 0.9, 0.8)
 
@@ -33153,7 +33153,7 @@ shape = SubResource("S944")
 position = Vector3(-51.027099916898614, 0.45, 93.59414836232258)
 scale = Vector3(0.85, 1, 0.5)
 
-[node name="ArrivalReed20" parent="." instance=ExtResource("46")]
+[node name="ArrivalReed20" parent="." instance=ExtResource("45")]
 position = Vector3(-51.027099916898614, 0, 93.59414836232258)
 scale = Vector3(0.8, 0.9, 0.8)
 
@@ -44672,16 +44672,16 @@ collision_mask = 0
 [node name="Shape" type="CollisionShape3D" parent="WetlandsGatehouse/GateOutsideBenchLeg1/Body"]
 shape = SubResource("S1446")
 
-[node name="GateHedge0" parent="WetlandsGatehouse" instance=ExtResource("47")]
+[node name="GateHedge0" parent="WetlandsGatehouse" instance=ExtResource("46")]
 position = Vector3(-7, 0, 10.5)
 
-[node name="GateHedge1" parent="WetlandsGatehouse" instance=ExtResource("47")]
+[node name="GateHedge1" parent="WetlandsGatehouse" instance=ExtResource("46")]
 position = Vector3(-9, 0, 13)
 
-[node name="GateHedge2" parent="WetlandsGatehouse" instance=ExtResource("47")]
+[node name="GateHedge2" parent="WetlandsGatehouse" instance=ExtResource("46")]
 position = Vector3(9, 0, 13)
 
-[node name="GateHedge3" parent="WetlandsGatehouse" instance=ExtResource("47")]
+[node name="GateHedge3" parent="WetlandsGatehouse" instance=ExtResource("46")]
 position = Vector3(8, 0, 16)
 
 [node name="GateTree-1" parent="WetlandsGatehouse" instance=ExtResource("16")]
@@ -44703,6 +44703,10 @@ position = Vector3(6, 3.2, -8.59)
 scale = Vector3(3.3, 2.5, 0.08)
 mesh = SubResource("S1345")
 material_override = SubResource("S1341")
+
+[node name="WetlandsQuestBoard" parent="." instance=ExtResource("47")]
+position = Vector3(34, 0.09, 54)
+scale = Vector3(1, 1, 1)
 
 [node name="GrasslandsGarden" type="Node3D" parent="."]
 

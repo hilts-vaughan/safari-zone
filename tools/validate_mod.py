@@ -43,13 +43,17 @@ for folder in (out/'birds').iterdir():
   hx,hy=anchor({'name':folder.name})
   heads=Image.open(folder/'head.png');bodies=Image.open(folder/'body.png')
   for pose in range(5):
-   head_poses=range(3) if folder.name in {'Noctowl','Dustox','Gligar','Talonflame','Ho-Oh','Yveltal','Yanma'} else [0 if pose<3 else pose-2]
+   head_poses=range(3) if folder.name in {'Noctowl','Dustox','Gligar','Talonflame','Ho-Oh','Yveltal','Yanma','Masquerain','Fearow','Dodrio','Zapdos'} else [0 if pose<3 else pose-2]
    for head_pose in head_poses:
     head_frame=heads.crop((head_pose*150,0,(head_pose+1)*150,150))
     registered=Image.new('RGBA',(400,400));registered.alpha_composite(head_frame,(125 if pose>=3 else round(hx)-75,round(hy)-75))
     head_mask=registered.getchannel('A').point(lambda a:255 if a>=128 else 0)
     body_mask=bodies.crop((pose*400,0,(pose+1)*400,400)).getchannel('A').point(lambda a:255 if a>=128 else 0)
     assert ImageChops.multiply(head_mask.filter(ImageFilter.MaxFilter(7)),body_mask).getbbox(),(folder.name,pose,head_pose,'Detached head/neck gap exceeds three pixels')
+    if folder.name in {'Masquerain','Fearow','Dodrio','Zapdos'}:
+     from audit_alignment import attachment_mask
+     actual_body=bodies.crop((pose*400,0,(pose+1)*400,400))
+     assert ImageChops.multiply(attachment_mask(registered),attachment_mask(actual_body)).histogram()[255]>=8,(folder.name,pose,head_pose,'Main head and body silhouettes must attach')
 
 from scene_assets import check_resource
 custom={}

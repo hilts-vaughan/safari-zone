@@ -46,6 +46,14 @@ psyduck_rarity=vanilla('Rarity_1_Common');psyduck_rarity['count_per_pool']=1
 psyduck_rarity['name']=loc('rarity.pondregular','Pond regular')
 psyduck_rarity_id=save('Rarity','PondRegular',psyduck_rarity)
 rare={'common':2346948767,'uncommon':2418968707,'rare':1803097666,'epic':619254682}
+# Keep legendary visitors at one ticket (native minimum); increase the other
+# Highlands species' tickets fivefold to reduce relative legendary odds.
+highland_rarities={}
+for key,base in [('common','1_Common'),('uncommon','2_Uncommon'),('rare','3_Rare'),('epic','4_Epic')]:
+ rarity=vanilla('Rarity_'+base)
+ rarity['count_per_pool']*=5
+ rarity['name']=loc('rarity.highland.'+key,key.capitalize())
+ highland_rarities[key]=save('Rarity','Highland_'+key,rarity)
 for r in roster:
  render(r,OUT/'birds'/r['name']);d=json.loads((ROOT/'editor/Samples/NotExplosive/MarshWren/BirdSpecies_MarshWren.json').read_text())
  d['display_name']=loc('bird.'+r['name']+'.name',r['name']);d['description']=loc('bird.'+r['name']+'.description',f"{r['name']} — Pokédex #{int(r['dex']):03d}. A Pokémon-inspired visitor to the {dict((z[0],z[1]) for z in zones)[r['zone']]}. Listen for its call and photograph its perched and flying poses.")
@@ -78,7 +86,7 @@ for r in roster:
   d['stat_fly_speed']=1.0 # Native flightless transitions also use this speed.
   d['bird_animation_override']=[{'from':5,'to':8}] # Swim -> PenguinSwim
   d['should_sink_when_flying']=False # Floating body already has tucked feet.
- if r['zone']=='cliffs':d['supported_perch_points_weights']=[{'perch_point':1069283163,'weight':.45},{'perch_point':1334782406,'weight':.5},{'perch_point':4191031092,'weight':.05}]
+ if r['zone']=='cliffs':d['rarity']=highland_rarities[r['rarity']];d['supported_perch_points_weights']=[{'perch_point':1069283163,'weight':.45},{'perch_point':1334782406,'weight':.5},{'perch_point':4191031092,'weight':.05}]
  # Ground foragers spend more time in clearings; canopy specialists retain their mix.
  if r['name'] in ['Pidgey','Spearow',"Farfetch'd",'Doduo','Dodrio','Starly','Staravia','Fletchling','Hawlucha']:
   d['supported_perch_points_weights']=[{'perch_point':1069283163,'weight':.55},{'perch_point':1334782406,'weight':.4},{'perch_point':495710309,'weight':.04},{'perch_point':4191031092,'weight':.01}]
@@ -87,7 +95,7 @@ for r in roster:
   d['supported_perch_points_weights']=[{'perch_point':1069283163,'weight':round(.95-rock_weight,2)},{'perch_point':1334782406,'weight':rock_weight},{'perch_point':4191031092,'weight':.05}]
  if r['name'] in ['Zapdos','Ho-Oh']:
   d['supported_perch_points_weights']=[{'perch_point':3526737011,'weight':1.0}]
-  d['rarity']=legend_rarity_id # One pool entry each, versus three for ordinary epics.
+  d['rarity']=legend_rarity_id # One ticket each versus boosted Highlands residents.
   d['preferred_seeds']=[] # No seed lure can pull these high-only visitors onto the ground.
  d['stat_tweet_wait_time']={'base':9,'variance':4};d['stat_preferred_group_size']=1 if r['rarity']=='epic' else 3
  if r['zone']=='grass':d['stat_tweet_wait_time']={'base':16.875,'variance':7.5}
@@ -97,7 +105,9 @@ for r in roster:
  d['dimensions']['perched_front_back']={'foot_offset':0,'head_offset':.48,'center_offset':-.2,'size_offset':0}
  for pose in ['perched_side','flying_side','sideways']:
   d['dimensions'][pose]={'foot_offset':{'X':-1.2,'Y':.3},'head_offset':{'X':-.4,'Y':.5},'center_offset':{'X':-.2,'Y':-.3},'size_offset':0}
- if r['name']=='Pidgey':
+ # The artwork is registered at the ground origin. A nonzero foot locator
+ # makes native ground placement subtract that height and bury the sprite.
+ if r['name']!='Psyduck':
   d['dimensions']['perched_front_back']['foot_offset']=0
   for pose in ['perched_side','flying_side','sideways']:
    d['dimensions'][pose]['foot_offset']={'X':0,'Y':0}

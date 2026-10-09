@@ -97,7 +97,7 @@ def build(g):
    solid(f'Pot{side}_{z}',(side*8.1,.43,z),(.75,.86,.75),'gatepot')
    for j in range(4):detail(f'PotLeaf{side}_{z}_{j}',(side*8.1+(j%2-.5)*.38,1.15+j*.12,z),(.65,.18,.55),'plantleaf')
  printface('ReserveMap',(-6,3.2,-8.54),(3.5,2.5),'reserve-map')
- printface('WetlandsPoster',(6,3.2,-8.54),(3.1,2.3),'poster-hoenn')
+ printface('WetlandsPoster',(6,3.2,-8.54),(3.1,2.3),'poster-wildlife')
  bench_landing(g,'GateOutsideBench',[(CENTER[0]+6,.69,CENTER[1]+10.4,3.6,.85)],(CENTER[0]+6,1.525,CENTER[1]+10.7,3.6,.16))
  solid('OutsideBench',(6,.6,10.4),(3.6,.18,.85),'gatewood')
  solid('OutsideBenchBack',(6,1.1,10.7),(3.6,.85,.16),'gatewood')
@@ -112,3 +112,6 @@ def build(g):
   node('GateTree'+str(side),None,parent,f'position = {vec((side*13,0,13))}\nscale = Vector3(1.7, 1.7, 1.7)',tree)
  detail('MapFrame',(-6,3.2,-8.59),(3.7,2.7,.08),'gatewood')
  detail('PosterFrame',(6,3.2,-8.59),(3.3,2.5,.08),'gatewood')
+
+ # Stock interactive board uses the game's generic photography quest pool.
+ g['prefab']('WetlandsQuestBoard','CoreGameplay/QuestBoard',(CENTER[0]-4,0.09,CENTER[1]+12),(1,1,1))

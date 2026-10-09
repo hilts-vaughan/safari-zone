@@ -133,7 +133,7 @@ def build(g):
  bench_landing(g,'IndoorBench',[(bx,.66,bz-.42+j*.24,2.1,.19) for j in range(4)],(bx,1.50,bz+.55,2.1,.12))
  detail('InteriorMapFrame',(cx,2.8,cz-4.46),(4.1,3.05,.14),'plank')
  printface('InteriorMap',(cx,2.8,cz-4.375),(3.86,2.81),'reserve-map',ry=0)
- for side,asset in [(-1,'poster-hoenn'),(1,'poster-wildlife')]:
+ for side,asset in [(-1,'poster-wildlife'),(1,'poster-wildlife')]:
   x=cx+side*4.25
   detail('RearPosterFrame'+str(side),(x,2.8,cz-4.46),(2.65,2.65,.14),'plank')
   printface('RearPoster'+str(side),(x,2.8,cz-4.375),(2.43,2.43),asset,ry=0)
