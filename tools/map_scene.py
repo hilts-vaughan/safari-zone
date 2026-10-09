@@ -143,6 +143,8 @@ def build(g):
  border=build_border(g)
  from highlands_garden import build as build_highlands
  highlands=build_highlands(g)
+ from meadow_perch_grove import build as build_grove
+ grasslands['perch_grove']=build_grove(g)
  preview(model,out/'map.png');preview(model,root/'docs/map-layout.png')
  stats={'area_m2':round(model['area'],3),'original_area_m2':168*168,'area_multiplier':round(model['area']/(168*168),5),'trees':len(model['trees']),'shrubs':len(model['shrubs']),'ground_details':len(model['details']),'ground_perches':count,'path_width_m':5.5,'paths':paths,'hilltop_foliage':hilltop_foliage,'ponds':len(PONDS),'waypoints':WAYPOINTS,'facilities':FACILITIES,'outline':model['outline'],'enclosures':enclosures,'grasslands':grasslands,'frontage':frontage,'forest_checkpoint':forest_gate,'bird_garden':bird_garden,'benches':benches,'park_perches':park_perches,'forest_garden':forest_garden,'wetlands_garden':wetlands,'wetlands_water_garden':water_garden,'fountain_garden':fountain,'picnic_garden':picnic,'gate_picnic':gate_picnic,'forest_service_garden':service,'woodland_border':border,'highlands_garden':highlands}
  (root/'docs/map-layout.json').write_text(json.dumps(stats,indent=2)+'\n')

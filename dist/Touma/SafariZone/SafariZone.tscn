@@ -14527,6 +14527,292 @@ height = 1
 radial_segments = 6
 rings = 3
 
+[sub_resource type="SphereMesh" id="S4437"]
+radius = 0.5
+height = 1
+radial_segments = 7
+rings = 3
+
+[sub_resource type="CylinderMesh" id="S4438"]
+top_radius = 0.20
+bottom_radius = 0.48
+height = 11
+radial_segments = 7
+
+[sub_resource type="CylinderShape3D" id="S4439"]
+radius = 0.43
+height = 11
+
+[sub_resource type="BoxMesh" id="S4440"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4441"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4442"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4443"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4444"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4445"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4446"]
+size = Vector3(0.2, 0.2, 2.42)
+
+[sub_resource type="BoxMesh" id="S4447"]
+size = Vector3(0.2, 0.2, 2.720735194758946)
+
+[sub_resource type="BoxMesh" id="S4448"]
+size = Vector3(0.2, 0.2, 2.9213695418416337)
+
+[sub_resource type="BoxMesh" id="S4449"]
+size = Vector3(0.2, 0.2, 4.224736678184806)
+
+[sub_resource type="CylinderMesh" id="S4450"]
+top_radius = 0.20
+bottom_radius = 0.48
+height = 12
+radial_segments = 7
+
+[sub_resource type="CylinderShape3D" id="S4451"]
+radius = 0.43
+height = 12
+
+[sub_resource type="BoxMesh" id="S4452"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4453"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4454"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4455"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4456"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4457"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4458"]
+size = Vector3(0.2, 0.2, 2.6400000000000006)
+
+[sub_resource type="BoxMesh" id="S4459"]
+size = Vector3(0.2, 0.2, 2.8725598340156475)
+
+[sub_resource type="BoxMesh" id="S4460"]
+size = Vector3(0.2, 0.2, 3.0847366176061124)
+
+[sub_resource type="BoxMesh" id="S4461"]
+size = Vector3(0.2, 0.2, 4.444502221846671)
+
+[sub_resource type="CylinderMesh" id="S4462"]
+top_radius = 0.20
+bottom_radius = 0.48
+height = 10
+radial_segments = 7
+
+[sub_resource type="CylinderShape3D" id="S4463"]
+radius = 0.43
+height = 10
+
+[sub_resource type="BoxMesh" id="S4464"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4465"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4466"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4467"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4468"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4469"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4470"]
+size = Vector3(0.2, 0.2, 2.1999999999999993)
+
+[sub_resource type="BoxMesh" id="S4471"]
+size = Vector3(0.2, 0.2, 2.578759391645525)
+
+[sub_resource type="BoxMesh" id="S4472"]
+size = Vector3(0.2, 0.2, 2.765863337187865)
+
+[sub_resource type="BoxMesh" id="S4473"]
+size = Vector3(0.2, 0.2, 4.004996878900157)
+
+[sub_resource type="CylinderMesh" id="S4474"]
+top_radius = 0.20
+bottom_radius = 0.48
+height = 13
+radial_segments = 7
+
+[sub_resource type="CylinderShape3D" id="S4475"]
+radius = 0.43
+height = 13
+
+[sub_resource type="BoxMesh" id="S4476"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4477"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4478"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4479"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4480"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4481"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4482"]
+size = Vector3(0.2, 0.2, 2.8599999999999994)
+
+[sub_resource type="BoxMesh" id="S4483"]
+size = Vector3(0.2, 0.2, 3.0327545235313718)
+
+[sub_resource type="BoxMesh" id="S4484"]
+size = Vector3(0.2, 0.2, 3.2547810986301355)
+
+[sub_resource type="BoxMesh" id="S4485"]
+size = Vector3(0.2, 0.2, 4.664289870923548)
+
+[sub_resource type="CylinderMesh" id="S4486"]
+top_radius = 0.20
+bottom_radius = 0.48
+height = 11
+radial_segments = 7
+
+[sub_resource type="CylinderShape3D" id="S4487"]
+radius = 0.43
+height = 11
+
+[sub_resource type="BoxMesh" id="S4488"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4489"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4490"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4491"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4492"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4493"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4494"]
+size = Vector3(0.2, 0.2, 2.42)
+
+[sub_resource type="BoxMesh" id="S4495"]
+size = Vector3(0.2, 0.2, 2.7207351947589458)
+
+[sub_resource type="BoxMesh" id="S4496"]
+size = Vector3(0.2, 0.2, 2.921369541841634)
+
+[sub_resource type="BoxMesh" id="S4497"]
+size = Vector3(0.2, 0.2, 4.224736678184808)
+
+[sub_resource type="CylinderMesh" id="S4498"]
+top_radius = 0.20
+bottom_radius = 0.48
+height = 12
+radial_segments = 7
+
+[sub_resource type="CylinderShape3D" id="S4499"]
+radius = 0.43
+height = 12
+
+[sub_resource type="BoxMesh" id="S4500"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4501"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4502"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4503"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4504"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4505"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4506"]
+size = Vector3(0.2, 0.2, 2.6400000000000006)
+
+[sub_resource type="BoxMesh" id="S4507"]
+size = Vector3(0.2, 0.2, 2.872559834015647)
+
+[sub_resource type="BoxMesh" id="S4508"]
+size = Vector3(0.2, 0.2, 3.084736617606113)
+
+[sub_resource type="BoxMesh" id="S4509"]
+size = Vector3(0.2, 0.2, 4.444502221846672)
+
+[sub_resource type="CylinderMesh" id="S4510"]
+top_radius = 0.20
+bottom_radius = 0.48
+height = 10
+radial_segments = 7
+
+[sub_resource type="CylinderShape3D" id="S4511"]
+radius = 0.43
+height = 10
+
+[sub_resource type="BoxMesh" id="S4512"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4513"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4514"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4515"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4516"]
+size = Vector3(0.24, 0.24, 3.3034073318317754)
+
+[sub_resource type="BoxMesh" id="S4517"]
+size = Vector3(1.3, 0.24, 0.55)
+
+[sub_resource type="BoxMesh" id="S4518"]
+size = Vector3(0.2, 0.2, 2.1999999999999993)
+
+[sub_resource type="BoxMesh" id="S4519"]
+size = Vector3(0.2, 0.2, 2.5787593916455247)
+
+[sub_resource type="BoxMesh" id="S4520"]
+size = Vector3(0.2, 0.2, 2.765863337187865)
+
+[sub_resource type="BoxMesh" id="S4521"]
+size = Vector3(0.2, 0.2, 4.004996878900157)
+
 [node name="SafariZone" type="Node3D"]
 
 
@@ -75891,4 +76177,1036 @@ material_override = SubResource("S3")
 position = Vector3(95.6484037369935, 4.2, -84.71)
 scale = Vector3(0.3,0.24,0.08)
 mesh = SubResource("S4436")
+material_override = SubResource("S3")
+
+[node name="MeadowPerchGrove" type="Node3D" parent="."]
+
+
+[node name="Trunk0" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-138, 8.770761111111112, 9)
+mesh = SubResource("S4438")
+material_override = SubResource("S869")
+
+[node name="TrunkBody0" type="StaticBody3D" parent="MeadowPerchGrove"]
+position = Vector3(-138, 8.770761111111112, 9)
+collision_layer = 11
+collision_mask = 0
+
+[node name="Shape" type="CollisionShape3D" parent="MeadowPerchGrove/TrunkBody0"]
+shape = SubResource("S4439")
+
+[node name="Branch0_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.6, 7.125761111111111, 9.25)
+rotation_degrees = Vector3(-11.347937906285239,-81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch0_0"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch0_0/Wood"]
+mesh = SubResource("S4440")
+material_override = SubResource("S869")
+
+[node name="BranchTip0_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-140.65, 7.450761111111111, 9.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip0_0"]
+mesh = SubResource("S4441")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding0_0" parent="." instance=ExtResource("11")]
+position = Vector3(-140.65, 7.580761111111111, 9.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="Branch0_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-136.4, 9.10576111111111, 9.25)
+rotation_degrees = Vector3(-11.347937906285239,81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch0_1"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch0_1/Wood"]
+mesh = SubResource("S4442")
+material_override = SubResource("S869")
+
+[node name="BranchTip0_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-135.35, 9.430761111111112, 9.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip0_1"]
+mesh = SubResource("S4443")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding0_1" parent="." instance=ExtResource("11")]
+position = Vector3(-135.35, 9.560761111111113, 9.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="Branch0_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.6, 10.975761111111112, 9.25)
+rotation_degrees = Vector3(-11.347937906285239,-81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch0_2"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch0_2/Wood"]
+mesh = SubResource("S4444")
+material_override = SubResource("S869")
+
+[node name="BranchTip0_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-140.65, 11.300761111111111, 9.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip0_2"]
+mesh = SubResource("S4445")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding0_2" parent="." instance=ExtResource("11")]
+position = Vector3(-140.65, 11.430761111111112, 9.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="CrownBranch0_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-138.0, 13.060761111111113, 9.0)
+rotation_degrees = Vector3(-90.0,0.0,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch0_0"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch0_0/Wood"]
+mesh = SubResource("S4446")
+material_override = SubResource("S869")
+
+[node name="Crown0_0" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-138, 14.270761111111112, 9)
+scale = Vector3(5, 3.4000000000000004, 4.0)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch0_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.0, 12.760761111111112, 9.15)
+rotation_degrees = Vector3(-41.98506244213596,-81.46923439005185,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch0_1"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch0_1/Wood"]
+mesh = SubResource("S4447")
+material_override = SubResource("S869")
+
+[node name="Crown0_1" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-140, 13.670761111111112, 9.3)
+scale = Vector3(3.8, 2.584, 3.04)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch0_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-137.0, 12.91076111111111, 8.9)
+rotation_degrees = Vector3(-46.52603105829742,95.71059313749961,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch0_2"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch0_2/Wood"]
+mesh = SubResource("S4448")
+material_override = SubResource("S869")
+
+[node name="Crown0_2" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-136, 13.970761111111111, 8.8)
+scale = Vector3(3.9, 2.652, 3.12)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch0_3" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-138.0, 13.960761111111111, 9.1)
+rotation_degrees = Vector3(-87.28659055496668,0.0,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch0_3"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch0_3/Wood"]
+mesh = SubResource("S4449")
+material_override = SubResource("S869")
+
+[node name="Crown0_3" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-138, 16.07076111111111, 9.2)
+scale = Vector3(3.6, 2.4480000000000004, 2.8800000000000003)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="Trunk1" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-137, 8.63785185185185, 16)
+mesh = SubResource("S4450")
+material_override = SubResource("S869")
+
+[node name="TrunkBody1" type="StaticBody3D" parent="MeadowPerchGrove"]
+position = Vector3(-137, 8.63785185185185, 16)
+collision_layer = 11
+collision_mask = 0
+
+[node name="Shape" type="CollisionShape3D" parent="MeadowPerchGrove/TrunkBody1"]
+shape = SubResource("S4451")
+
+[node name="Branch1_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-138.6, 6.872851851851851, 16.25)
+rotation_degrees = Vector3(-11.347937906285239,-81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch1_0"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch1_0/Wood"]
+mesh = SubResource("S4452")
+material_override = SubResource("S869")
+
+[node name="BranchTip1_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.65, 7.197851851851851, 16.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip1_0"]
+mesh = SubResource("S4453")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding1_0" parent="." instance=ExtResource("11")]
+position = Vector3(-139.65, 7.327851851851851, 16.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="Branch1_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-135.4, 9.032851851851852, 16.25)
+rotation_degrees = Vector3(-11.347937906285239,81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch1_1"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch1_1/Wood"]
+mesh = SubResource("S4454")
+material_override = SubResource("S869")
+
+[node name="BranchTip1_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-134.35, 9.357851851851851, 16.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip1_1"]
+mesh = SubResource("S4455")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding1_1" parent="." instance=ExtResource("11")]
+position = Vector3(-134.35, 9.487851851851852, 16.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="Branch1_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-138.6, 11.072851851851851, 16.25)
+rotation_degrees = Vector3(-11.347937906285239,-81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch1_2"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch1_2/Wood"]
+mesh = SubResource("S4456")
+material_override = SubResource("S869")
+
+[node name="BranchTip1_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.65, 11.39785185185185, 16.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip1_2"]
+mesh = SubResource("S4457")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding1_2" parent="." instance=ExtResource("11")]
+position = Vector3(-139.65, 11.527851851851851, 16.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="CrownBranch1_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-137.0, 13.31785185185185, 16.0)
+rotation_degrees = Vector3(-90.0,0.0,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch1_0"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch1_0/Wood"]
+mesh = SubResource("S4458")
+material_override = SubResource("S869")
+
+[node name="Crown1_0" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-137, 14.63785185185185, 16)
+scale = Vector3(5, 3.4000000000000004, 4.0)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch1_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-138.0, 13.017851851851852, 16.15)
+rotation_degrees = Vector3(-45.24858386824112,-81.46923439005185,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch1_1"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch1_1/Wood"]
+mesh = SubResource("S4459")
+material_override = SubResource("S869")
+
+[node name="Crown1_1" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-139, 14.037851851851851, 16.3)
+scale = Vector3(3.8, 2.584, 3.04)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch1_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-136.0, 13.16785185185185, 15.9)
+rotation_degrees = Vector3(-49.33861728226194,95.71059313749961,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch1_2"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch1_2/Wood"]
+mesh = SubResource("S4460")
+material_override = SubResource("S869")
+
+[node name="Crown1_2" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-135, 14.33785185185185, 15.8)
+scale = Vector3(3.9, 2.652, 3.12)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch1_3" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-137.0, 14.21785185185185, 16.1)
+rotation_degrees = Vector3(-87.42085249971659,0.0,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch1_3"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch1_3/Wood"]
+mesh = SubResource("S4461")
+material_override = SubResource("S869")
+
+[node name="Crown1_3" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-137, 16.43785185185185, 16.2)
+scale = Vector3(3.6, 2.4480000000000004, 2.8800000000000003)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="Trunk2" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-139, 9.5792, 23)
+mesh = SubResource("S4462")
+material_override = SubResource("S869")
+
+[node name="TrunkBody2" type="StaticBody3D" parent="MeadowPerchGrove"]
+position = Vector3(-139, 9.5792, 23)
+collision_layer = 11
+collision_mask = 0
+
+[node name="Shape" type="CollisionShape3D" parent="MeadowPerchGrove/TrunkBody2"]
+shape = SubResource("S4463")
+
+[node name="Branch2_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-140.6, 8.054200000000002, 23.25)
+rotation_degrees = Vector3(-11.347937906285239,-81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch2_0"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch2_0/Wood"]
+mesh = SubResource("S4464")
+material_override = SubResource("S869")
+
+[node name="BranchTip2_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-141.65, 8.3792, 23.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip2_0"]
+mesh = SubResource("S4465")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding2_0" parent="." instance=ExtResource("11")]
+position = Vector3(-141.65, 8.509200000000002, 23.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="Branch2_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-137.4, 9.854200000000002, 23.25)
+rotation_degrees = Vector3(-11.347937906285239,81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch2_1"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch2_1/Wood"]
+mesh = SubResource("S4466")
+material_override = SubResource("S869")
+
+[node name="BranchTip2_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-136.35, 10.179200000000002, 23.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip2_1"]
+mesh = SubResource("S4467")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding2_1" parent="." instance=ExtResource("11")]
+position = Vector3(-136.35, 10.309200000000002, 23.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="Branch2_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-140.6, 11.554200000000002, 23.25)
+rotation_degrees = Vector3(-11.347937906285239,-81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch2_2"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch2_2/Wood"]
+mesh = SubResource("S4468")
+material_override = SubResource("S869")
+
+[node name="BranchTip2_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-141.65, 11.8792, 23.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip2_2"]
+mesh = SubResource("S4469")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding2_2" parent="." instance=ExtResource("11")]
+position = Vector3(-141.65, 12.009200000000002, 23.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="CrownBranch2_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.0, 13.4792, 23.0)
+rotation_degrees = Vector3(-90.0,0.0,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch2_0"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch2_0/Wood"]
+mesh = SubResource("S4470")
+material_override = SubResource("S869")
+
+[node name="Crown2_0" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-139, 14.5792, 23)
+scale = Vector3(5, 3.4000000000000004, 4.0)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch2_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-140.0, 13.179200000000002, 23.15)
+rotation_degrees = Vector3(-38.349250791949935,-81.46923439005185,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch2_1"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch2_1/Wood"]
+mesh = SubResource("S4471")
+material_override = SubResource("S869")
+
+[node name="Crown2_1" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-141, 13.9792, 23.3)
+scale = Vector3(3.8, 2.584, 3.04)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch2_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-138.0, 13.3292, 22.9)
+rotation_degrees = Vector3(-43.38887731551954,95.71059313749961,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch2_2"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch2_2/Wood"]
+mesh = SubResource("S4472")
+material_override = SubResource("S869")
+
+[node name="Crown2_2" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-137, 14.2792, 22.8)
+scale = Vector3(3.9, 2.652, 3.12)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch2_3" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.0, 14.3792, 23.1)
+rotation_degrees = Vector3(-87.13759477388827,0.0,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch2_3"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch2_3/Wood"]
+mesh = SubResource("S4473")
+material_override = SubResource("S869")
+
+[node name="Crown2_3" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-139, 16.3792, 23.2)
+scale = Vector3(3.6, 2.4480000000000004, 2.8800000000000003)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="Trunk3" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-137, 9.112944444444445, 30)
+mesh = SubResource("S4474")
+material_override = SubResource("S869")
+
+[node name="TrunkBody3" type="StaticBody3D" parent="MeadowPerchGrove"]
+position = Vector3(-137, 9.112944444444445, 30)
+collision_layer = 11
+collision_mask = 0
+
+[node name="Shape" type="CollisionShape3D" parent="MeadowPerchGrove/TrunkBody3"]
+shape = SubResource("S4475")
+
+[node name="Branch3_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-138.6, 7.227944444444444, 30.25)
+rotation_degrees = Vector3(-11.347937906285239,-81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch3_0"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch3_0/Wood"]
+mesh = SubResource("S4476")
+material_override = SubResource("S869")
+
+[node name="BranchTip3_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.65, 7.552944444444444, 30.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip3_0"]
+mesh = SubResource("S4477")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding3_0" parent="." instance=ExtResource("11")]
+position = Vector3(-139.65, 7.682944444444444, 30.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="Branch3_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-135.4, 9.567944444444446, 30.25)
+rotation_degrees = Vector3(-11.347937906285239,81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch3_1"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch3_1/Wood"]
+mesh = SubResource("S4478")
+material_override = SubResource("S869")
+
+[node name="BranchTip3_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-134.35, 9.892944444444446, 30.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip3_1"]
+mesh = SubResource("S4479")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding3_1" parent="." instance=ExtResource("11")]
+position = Vector3(-134.35, 10.022944444444446, 30.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="Branch3_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-138.6, 11.777944444444444, 30.25)
+rotation_degrees = Vector3(-11.347937906285239,-81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch3_2"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch3_2/Wood"]
+mesh = SubResource("S4480")
+material_override = SubResource("S869")
+
+[node name="BranchTip3_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.65, 12.102944444444445, 30.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip3_2"]
+mesh = SubResource("S4481")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding3_2" parent="." instance=ExtResource("11")]
+position = Vector3(-139.65, 12.232944444444446, 30.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="CrownBranch3_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-137.0, 14.182944444444445, 30.0)
+rotation_degrees = Vector3(-90.0,0.0,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch3_0"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch3_0/Wood"]
+mesh = SubResource("S4482")
+material_override = SubResource("S869")
+
+[node name="Crown3_0" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-137, 15.612944444444445, 30)
+scale = Vector3(5, 3.4000000000000004, 4.0)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch3_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-138.0, 13.882944444444444, 30.15)
+rotation_degrees = Vector3(-48.17603463310575,-81.46923439005185,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch3_1"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch3_1/Wood"]
+mesh = SubResource("S4483")
+material_override = SubResource("S869")
+
+[node name="Crown3_1" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-139, 15.012944444444445, 30.3)
+scale = Vector3(3.8, 2.584, 3.04)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch3_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-136.0, 14.032944444444444, 29.9)
+rotation_degrees = Vector3(-51.86289204809276,95.71059313749961,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch3_2"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch3_2/Wood"]
+mesh = SubResource("S4484")
+material_override = SubResource("S869")
+
+[node name="Crown3_2" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-135, 15.312944444444444, 29.8)
+scale = Vector3(3.9, 2.652, 3.12)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch3_3" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-137.0, 15.082944444444445, 30.1)
+rotation_degrees = Vector3(-87.5424618518229,0.0,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch3_3"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch3_3/Wood"]
+mesh = SubResource("S4485")
+material_override = SubResource("S869")
+
+[node name="Crown3_3" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-137, 17.412944444444445, 30.2)
+scale = Vector3(3.6, 2.4480000000000004, 2.8800000000000003)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="Trunk4" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-138, 8.006892592592592, 37)
+mesh = SubResource("S4486")
+material_override = SubResource("S869")
+
+[node name="TrunkBody4" type="StaticBody3D" parent="MeadowPerchGrove"]
+position = Vector3(-138, 8.006892592592592, 37)
+collision_layer = 11
+collision_mask = 0
+
+[node name="Shape" type="CollisionShape3D" parent="MeadowPerchGrove/TrunkBody4"]
+shape = SubResource("S4487")
+
+[node name="Branch4_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.6, 6.361892592592592, 37.25)
+rotation_degrees = Vector3(-11.347937906285239,-81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch4_0"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch4_0/Wood"]
+mesh = SubResource("S4488")
+material_override = SubResource("S869")
+
+[node name="BranchTip4_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-140.65, 6.686892592592592, 37.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip4_0"]
+mesh = SubResource("S4489")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding4_0" parent="." instance=ExtResource("11")]
+position = Vector3(-140.65, 6.816892592592592, 37.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="Branch4_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-136.4, 8.341892592592593, 37.25)
+rotation_degrees = Vector3(-11.347937906285239,81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch4_1"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch4_1/Wood"]
+mesh = SubResource("S4490")
+material_override = SubResource("S869")
+
+[node name="BranchTip4_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-135.35, 8.666892592592593, 37.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip4_1"]
+mesh = SubResource("S4491")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding4_1" parent="." instance=ExtResource("11")]
+position = Vector3(-135.35, 8.796892592592593, 37.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="Branch4_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.6, 10.21189259259259, 37.25)
+rotation_degrees = Vector3(-11.347937906285239,-81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch4_2"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch4_2/Wood"]
+mesh = SubResource("S4492")
+material_override = SubResource("S869")
+
+[node name="BranchTip4_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-140.65, 10.536892592592592, 37.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip4_2"]
+mesh = SubResource("S4493")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding4_2" parent="." instance=ExtResource("11")]
+position = Vector3(-140.65, 10.666892592592593, 37.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="CrownBranch4_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-138.0, 12.296892592592592, 37.0)
+rotation_degrees = Vector3(-90.0,0.0,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch4_0"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch4_0/Wood"]
+mesh = SubResource("S4494")
+material_override = SubResource("S869")
+
+[node name="Crown4_0" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-138, 13.506892592592592, 37)
+scale = Vector3(5, 3.4000000000000004, 4.0)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch4_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.0, 11.996892592592593, 37.15)
+rotation_degrees = Vector3(-41.98506244213597,-81.46923439005195,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch4_1"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch4_1/Wood"]
+mesh = SubResource("S4495")
+material_override = SubResource("S869")
+
+[node name="Crown4_1" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-140, 12.906892592592593, 37.3)
+scale = Vector3(3.8, 2.584, 3.04)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch4_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-137.0, 12.146892592592593, 36.9)
+rotation_degrees = Vector3(-46.52603105829741,95.71059313749973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch4_2"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch4_2/Wood"]
+mesh = SubResource("S4496")
+material_override = SubResource("S869")
+
+[node name="Crown4_2" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-136, 13.206892592592592, 36.8)
+scale = Vector3(3.9, 2.652, 3.12)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch4_3" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-138.0, 13.196892592592594, 37.1)
+rotation_degrees = Vector3(-87.28659055496664,0.0,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch4_3"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch4_3/Wood"]
+mesh = SubResource("S4497")
+material_override = SubResource("S869")
+
+[node name="Crown4_3" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-138, 15.306892592592593, 37.2)
+scale = Vector3(3.6, 2.4480000000000004, 2.8800000000000003)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="Trunk5" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-137, 8.772948148148147, 44)
+mesh = SubResource("S4498")
+material_override = SubResource("S869")
+
+[node name="TrunkBody5" type="StaticBody3D" parent="MeadowPerchGrove"]
+position = Vector3(-137, 8.772948148148147, 44)
+collision_layer = 11
+collision_mask = 0
+
+[node name="Shape" type="CollisionShape3D" parent="MeadowPerchGrove/TrunkBody5"]
+shape = SubResource("S4499")
+
+[node name="Branch5_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-138.6, 7.007948148148148, 44.25)
+rotation_degrees = Vector3(-11.347937906285239,-81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch5_0"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch5_0/Wood"]
+mesh = SubResource("S4500")
+material_override = SubResource("S869")
+
+[node name="BranchTip5_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.65, 7.332948148148148, 44.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip5_0"]
+mesh = SubResource("S4501")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding5_0" parent="." instance=ExtResource("11")]
+position = Vector3(-139.65, 7.462948148148148, 44.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="Branch5_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-135.4, 9.167948148148149, 44.25)
+rotation_degrees = Vector3(-11.347937906285239,81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch5_1"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch5_1/Wood"]
+mesh = SubResource("S4502")
+material_override = SubResource("S869")
+
+[node name="BranchTip5_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-134.35, 9.492948148148148, 44.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip5_1"]
+mesh = SubResource("S4503")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding5_1" parent="." instance=ExtResource("11")]
+position = Vector3(-134.35, 9.622948148148149, 44.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="Branch5_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-138.6, 11.207948148148148, 44.25)
+rotation_degrees = Vector3(-11.347937906285239,-81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch5_2"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch5_2/Wood"]
+mesh = SubResource("S4504")
+material_override = SubResource("S869")
+
+[node name="BranchTip5_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.65, 11.532948148148147, 44.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip5_2"]
+mesh = SubResource("S4505")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding5_2" parent="." instance=ExtResource("11")]
+position = Vector3(-139.65, 11.662948148148148, 44.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="CrownBranch5_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-137.0, 13.452948148148147, 44.0)
+rotation_degrees = Vector3(-90.0,0.0,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch5_0"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch5_0/Wood"]
+mesh = SubResource("S4506")
+material_override = SubResource("S869")
+
+[node name="Crown5_0" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-137, 14.772948148148147, 44)
+scale = Vector3(5, 3.4000000000000004, 4.0)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch5_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-138.0, 13.152948148148148, 44.15)
+rotation_degrees = Vector3(-45.24858386824113,-81.46923439005195,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch5_1"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch5_1/Wood"]
+mesh = SubResource("S4507")
+material_override = SubResource("S869")
+
+[node name="Crown5_1" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-139, 14.172948148148148, 44.3)
+scale = Vector3(3.8, 2.584, 3.04)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch5_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-136.0, 13.302948148148147, 43.9)
+rotation_degrees = Vector3(-49.338617282261936,95.71059313749973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch5_2"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch5_2/Wood"]
+mesh = SubResource("S4508")
+material_override = SubResource("S869")
+
+[node name="Crown5_2" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-135, 14.472948148148147, 43.8)
+scale = Vector3(3.9, 2.652, 3.12)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch5_3" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-137.0, 14.352948148148148, 44.1)
+rotation_degrees = Vector3(-87.42085249971655,0.0,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch5_3"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch5_3/Wood"]
+mesh = SubResource("S4509")
+material_override = SubResource("S869")
+
+[node name="Crown5_3" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-137, 16.572948148148146, 44.2)
+scale = Vector3(3.6, 2.4480000000000004, 2.8800000000000003)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="Trunk6" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-138, 7.259403703703703, 51)
+mesh = SubResource("S4510")
+material_override = SubResource("S869")
+
+[node name="TrunkBody6" type="StaticBody3D" parent="MeadowPerchGrove"]
+position = Vector3(-138, 7.259403703703703, 51)
+collision_layer = 11
+collision_mask = 0
+
+[node name="Shape" type="CollisionShape3D" parent="MeadowPerchGrove/TrunkBody6"]
+shape = SubResource("S4511")
+
+[node name="Branch6_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.6, 5.734403703703703, 51.25)
+rotation_degrees = Vector3(-11.347937906285239,-81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch6_0"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch6_0/Wood"]
+mesh = SubResource("S4512")
+material_override = SubResource("S869")
+
+[node name="BranchTip6_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-140.65, 6.059403703703703, 51.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip6_0"]
+mesh = SubResource("S4513")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding6_0" parent="." instance=ExtResource("11")]
+position = Vector3(-140.65, 6.189403703703703, 51.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="Branch6_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-136.4, 7.5344037037037035, 51.25)
+rotation_degrees = Vector3(-11.347937906285239,81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch6_1"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch6_1/Wood"]
+mesh = SubResource("S4514")
+material_override = SubResource("S869")
+
+[node name="BranchTip6_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-135.35, 7.859403703703704, 51.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip6_1"]
+mesh = SubResource("S4515")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding6_1" parent="." instance=ExtResource("11")]
+position = Vector3(-135.35, 7.989403703703704, 51.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="Branch6_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.6, 9.234403703703702, 51.25)
+rotation_degrees = Vector3(-11.347937906285239,-81.11934084947973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/Branch6_2"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/Branch6_2/Wood"]
+mesh = SubResource("S4516")
+material_override = SubResource("S869")
+
+[node name="BranchTip6_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-140.65, 9.559403703703703, 51.5)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/BranchTip6_2"]
+mesh = SubResource("S4517")
+material_override = SubResource("S869")
+
+[node name="MeadowGroveLanding6_2" parent="." instance=ExtResource("11")]
+position = Vector3(-140.65, 9.689403703703704, 51.5)
+scale = Vector3(1.05, 1, 0.43)
+
+[node name="CrownBranch6_0" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-138.0, 11.159403703703704, 51.0)
+rotation_degrees = Vector3(-90.0,0.0,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch6_0"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch6_0/Wood"]
+mesh = SubResource("S4518")
+material_override = SubResource("S869")
+
+[node name="Crown6_0" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-138, 12.259403703703704, 51)
+scale = Vector3(5, 3.4000000000000004, 4.0)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch6_1" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-139.0, 10.859403703703705, 51.15)
+rotation_degrees = Vector3(-38.34925079194994,-81.46923439005195,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch6_1"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch6_1/Wood"]
+mesh = SubResource("S4519")
+material_override = SubResource("S869")
+
+[node name="Crown6_1" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-140, 11.659403703703704, 51.3)
+scale = Vector3(3.8, 2.584, 3.04)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch6_2" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-137.0, 11.009403703703704, 50.9)
+rotation_degrees = Vector3(-43.38887731551954,95.71059313749973,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch6_2"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch6_2/Wood"]
+mesh = SubResource("S4520")
+material_override = SubResource("S869")
+
+[node name="Crown6_2" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-136, 11.959403703703703, 50.8)
+scale = Vector3(3.9, 2.652, 3.12)
+mesh = SubResource("S4437")
+material_override = SubResource("S3")
+
+[node name="CrownBranch6_3" type="Node3D" parent="MeadowPerchGrove"]
+position = Vector3(-138.0, 12.059403703703705, 51.1)
+rotation_degrees = Vector3(-87.13759477388821,0.0,0)
+
+[node name="Wood" type="Node3D" parent="MeadowPerchGrove/CrownBranch6_3"]
+position = Vector3(0, 0, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="MeadowPerchGrove/CrownBranch6_3/Wood"]
+mesh = SubResource("S4521")
+material_override = SubResource("S869")
+
+[node name="Crown6_3" type="MeshInstance3D" parent="MeadowPerchGrove"]
+position = Vector3(-138, 14.059403703703705, 51.2)
+scale = Vector3(3.6, 2.4480000000000004, 2.8800000000000003)
+mesh = SubResource("S4437")
 material_override = SubResource("S3")
