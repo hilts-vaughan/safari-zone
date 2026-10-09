@@ -190,13 +190,13 @@ def build(g):
   detail('PlanterSoil'+str(side),(x,.715,z),(2.5,.035,3.9),'soil')
   for j in range(5):prefab(f'CenterFlowers{side}_{j}','Decorations/Flowers',(x,.95,z-1.45+j*.7),(.07,.07,.07))
  from park_perches import flat
- # Standing map board: wood slats, a framed miniature reserve pictogram.
+ # Illustrated reserve map, shared with the indoor maps; outdoor location overlay.
  bx,bz=cx+16.7,84
  for side in [-1,1]:box('MapPost'+str(side),(bx+side*1.6,1.6,bz),(.22,3.2,.25),'plank')
  detail('MapBoard',(bx,2.45,bz),(3.8,2.8,.2),'plank');detail('MapInset',(bx,2.45,bz+.115),(3.35,2.35,.025),'mapgreen')
- for j,(x,y) in enumerate([(-.7,.55),(.8,-.45),(1,.2)]):
-  detail('MapPond'+str(j),(bx+x,2.45+y,bz+.14),(.48,.28,.035),'mapwater')
- detail('MapTrailA',(bx,2.45,bz+.16),(2.8,.08,.025),'path');detail('MapTrailB',(bx,2.45,bz+.17),(.08,1.9,.025),'path')
+ printface('OutdoorReserveMap',(bx,2.45,bz+.15),(3.35,2.35),'reserve-map',ry=0)
+ node('MapLocation','Label3D','.',f'position = {vec((bx-.875,1.478,bz+.18))}\ntext = "●"\nfont_size = 48\npixel_size = 0.0025\noutline_size = 4\nmodulate = Color(0.85, 0.16, 0.12, 1)')
+ node('MapLocationCaption','Label3D','.',f'position = {vec((bx-.875,1.35,bz+.18))}\ntext = "YOU ARE HERE"\nfont_size = 28\npixel_size = 0.0016\noutline_size = 3')
  flat(g,'ReserveMapLanding',(bx,3.86,bz),3.4,.15)
  node('MapCaption','Label3D','.',f'position = {vec((bx,3.95,bz+.05))}\ntext = "SAFARI ZONE"\nfont_size = 36\npixel_size = 0.006\noutline_size = 3')
  # Small, fixed entrance sign; giant floating welcome text and arch are removed.
