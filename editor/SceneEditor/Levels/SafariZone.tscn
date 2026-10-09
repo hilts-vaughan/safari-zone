@@ -56630,7 +56630,7 @@ collision_layer = 11
 collision_mask = 0
 
 [node name="RockFace0" type="CSGPolygon3D" parent="WetlandsWaterGarden"]
-position = Vector3(62,0,65.012)
+position = Vector3(62,0,65.06)
 polygon = PackedVector2Array(-9, 3.2, -9, 6, 0, 5.7)
 depth = 0.008
 material = SubResource("S2526")
@@ -56639,7 +56639,7 @@ collision_layer = 11
 collision_mask = 0
 
 [node name="RockFace1" type="CSGPolygon3D" parent="WetlandsWaterGarden"]
-position = Vector3(62,0,65.012)
+position = Vector3(62,0,65.06)
 polygon = PackedVector2Array(-9, 6, -7, 7.8, 0, 5.7)
 depth = 0.008
 material = SubResource("S2525")
@@ -56648,7 +56648,7 @@ collision_layer = 11
 collision_mask = 0
 
 [node name="RockFace2" type="CSGPolygon3D" parent="WetlandsWaterGarden"]
-position = Vector3(62,0,65.012)
+position = Vector3(62,0,65.06)
 polygon = PackedVector2Array(-7, 7.8, -3, 8.7, 0, 5.7)
 depth = 0.008
 material = SubResource("S2525")
@@ -56657,7 +56657,7 @@ collision_layer = 11
 collision_mask = 0
 
 [node name="RockFace3" type="CSGPolygon3D" parent="WetlandsWaterGarden"]
-position = Vector3(62,0,65.012)
+position = Vector3(62,0,65.06)
 polygon = PackedVector2Array(-3, 8.7, 3, 8.7, 0, 5.7)
 depth = 0.008
 material = SubResource("S2526")
@@ -56666,7 +56666,7 @@ collision_layer = 11
 collision_mask = 0
 
 [node name="RockFace4" type="CSGPolygon3D" parent="WetlandsWaterGarden"]
-position = Vector3(62,0,65.012)
+position = Vector3(62,0,65.06)
 polygon = PackedVector2Array(3, 8.7, 7, 8, 0, 5.7)
 depth = 0.008
 material = SubResource("S2525")
@@ -56675,7 +56675,7 @@ collision_layer = 11
 collision_mask = 0
 
 [node name="RockFace5" type="CSGPolygon3D" parent="WetlandsWaterGarden"]
-position = Vector3(62,0,65.012)
+position = Vector3(62,0,65.06)
 polygon = PackedVector2Array(7, 8, 9, 6.6, 0, 5.7)
 depth = 0.008
 material = SubResource("S2525")
@@ -56684,7 +56684,7 @@ collision_layer = 11
 collision_mask = 0
 
 [node name="RockFace6" type="CSGPolygon3D" parent="WetlandsWaterGarden"]
-position = Vector3(62,0,65.012)
+position = Vector3(62,0,65.06)
 polygon = PackedVector2Array(9, 6.6, 9, 3.2, 0, 5.7)
 depth = 0.008
 material = SubResource("S2526")
@@ -56693,7 +56693,7 @@ collision_layer = 11
 collision_mask = 0
 
 [node name="RockFace7" type="CSGPolygon3D" parent="WetlandsWaterGarden"]
-position = Vector3(62,0,65.012)
+position = Vector3(62,0,65.06)
 polygon = PackedVector2Array(9, 3.2, -9, 3.2, 0, 5.7)
 depth = 0.008
 material = SubResource("S2525")
@@ -56702,16 +56702,16 @@ collision_layer = 11
 collision_mask = 0
 
 [node name="BluffTurf" type="CSGPolygon3D" parent="WetlandsWaterGarden"]
-position = Vector3(62,0,65.01)
-polygon = PackedVector2Array(-9, 6, -7, 7.8, -3, 8.7, 3, 8.7, 7, 8, 9, 6.6, 9, 6.43, 7, 7.83, 3, 8.53, -3, 8.53, -7, 7.63, -9, 5.83)
-depth = 8.7
+position = Vector3(62,0,65)
+polygon = PackedVector2Array(-9, 6.1, -7, 7.8999999999999995, -3, 8.799999999999999, 3, 8.799999999999999, 7, 8.1, 9, 6.699999999999999, 9, 6.64, 7, 8.04, 3, 8.739999999999998, -3, 8.739999999999998, -7, 7.84, -9, 6.04)
+depth = 4
 material = SubResource("S2528")
 use_collision = false
 collision_layer = 11
 collision_mask = 0
 
 [node name="DryPassage" type="Node3D" parent="WetlandsWaterGarden"]
-position = Vector3(62, -0.08, 63)
+position = Vector3(62, -0.06, 63)
 
 [node name="Mesh" type="MeshInstance3D" parent="WetlandsWaterGarden/DryPassage"]
 mesh = SubResource("S2704")
@@ -56801,7 +56801,7 @@ collision_mask = 0
 shape = SubResource("S2717")
 
 [node name="StreamBed" type="Node3D" parent="WetlandsWaterGarden"]
-position = Vector3(62, 8.55, 62)
+position = Vector3(62, 8.67, 62)
 
 [node name="Mesh" type="MeshInstance3D" parent="WetlandsWaterGarden/StreamBed"]
 mesh = SubResource("S2718")
@@ -56815,7 +56815,7 @@ collision_mask = 0
 shape = SubResource("S2719")
 
 [node name="UpperStream" type="Node3D" parent="WetlandsWaterGarden"]
-position = Vector3(62, 8.725, 62)
+position = Vector3(62, 8.845, 62)
 
 [node name="Mesh" type="MeshInstance3D" parent="WetlandsWaterGarden/UpperStream"]
 mesh = SubResource("S2720")
@@ -56839,7 +56839,7 @@ mesh = SubResource("S2724")
 material_override = SubResource("S7")
 
 [node name="FallingWater" type="CPUParticles3D" parent="WetlandsWaterGarden"]
-position = Vector3(62,8.6,66.15)
+position = Vector3(62,8.6,66.25)
 amount = 80
 lifetime = 1.1
 mesh = SubResource("S2725")
@@ -56847,7 +56847,7 @@ material_override = SubResource("S2529")
 emission_shape = 3
 emission_box_extents = Vector3(2.25,0.04,0.03)
 direction = Vector3(0,-1,0)
-spread = 2.0
+spread = 0.0
 gravity = Vector3(0,-9,0)
 initial_velocity_min = 4.0
 initial_velocity_max = 5.0
@@ -57415,11 +57415,11 @@ position = Vector3(32, 0.03, 57)
 scale = Vector3(0.06, 0.06, 0.06)
 
 [node name="WaterGardenFlowers2" parent="." instance=ExtResource("14")]
-position = Vector3(60, 8.72, 63)
+position = Vector3(60, 8.82, 63)
 scale = Vector3(0.06, 0.06, 0.06)
 
 [node name="WaterGardenFlowers3" parent="." instance=ExtResource("14")]
-position = Vector3(64, 8.72, 63)
+position = Vector3(64, 8.82, 63)
 scale = Vector3(0.06, 0.06, 0.06)
 
 [node name="FeederPost0" type="Node3D" parent="WetlandsWaterGarden"]
@@ -58135,7 +58135,7 @@ mesh = SubResource("S2820")
 material_override = SubResource("S7")
 
 [node name="PlazaFallingWater" type="CPUParticles3D" parent="WetlandsWaterGarden"]
-position = Vector3(62,7.85,55.9)
+position = Vector3(62,7.85,55.79)
 amount = 64
 lifetime = 1.1
 mesh = SubResource("S2821")
@@ -58143,7 +58143,7 @@ material_override = SubResource("S2529")
 emission_shape = 3
 emission_box_extents = Vector3(1.7,0.04,0.03)
 direction = Vector3(0,-1,0)
-spread = 2
+spread = 0
 gravity = Vector3(0,-9,0)
 initial_velocity_min = 4
 initial_velocity_max = 5

@@ -27,8 +27,9 @@ def build(g,cylinder,disc):
  cylinder('NorthStream',(62,8.035,58),1.9,.035,'water',sides=16)
  disc('PlazaCascadeBank',(62,.10,53),5.7,2.7,'shore')
  disc('PlazaCascadePool',(62,.15,53),5,2.1,'water')
+ # Keep streaks entirely north of the alpha sheet throughout their lifetime.
  streak=sub('BoxMesh','size = Vector3(0.09,0.8,0.045)')
- node('PlazaFallingWater','CPUParticles3D',parent,f'position = Vector3(62,7.85,55.9)\namount = 64\nlifetime = 1.1\nmesh = {streak}\nmaterial_override = {g["mats"]["wetlandfoam"]}\nemission_shape = 3\nemission_box_extents = Vector3(1.7,0.04,0.03)\ndirection = Vector3(0,-1,0)\nspread = 2\ngravity = Vector3(0,-9,0)\ninitial_velocity_min = 4\ninitial_velocity_max = 5')
+ node('PlazaFallingWater','CPUParticles3D',parent,f'position = Vector3(62,7.85,55.79)\namount = 64\nlifetime = 1.1\nmesh = {streak}\nmaterial_override = {g["mats"]["wetlandfoam"]}\nemission_shape = 3\nemission_box_extents = Vector3(1.7,0.04,0.03)\ndirection = Vector3(0,-1,0)\nspread = 0\ngravity = Vector3(0,-9,0)\ninitial_velocity_min = 4\ninitial_velocity_max = 5')
  for i in range(9):
   cylinder('PlazaFoam'+str(i),(60.4+i*.4,.19,55),.25,.045,'wetlandfoam',sides=8)
  # Staggered tapered shoulders and grass shelves break up the straight facade.

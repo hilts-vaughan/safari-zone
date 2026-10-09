@@ -65,12 +65,14 @@ def build(g):
   polygon=', '.join(str(v) for p in points for v in p)
   node(name,'CSGPolygon3D',parent,f'position = Vector3(62,0,{z})\npolygon = PackedVector2Array({polygon})\ndepth = {depth}\nmaterial = {g["mats"][material]}\nuse_collision = {str(solid).lower()}\ncollision_layer = 11\ncollision_mask = 0')
  rock_profile('GrottoRoof',profile,4,65,'waterfallrock',True)
- # Shallow contrasting triangular faces create a faceted stone front.
+ # Keep faceted overlays clear of the roof face at grazing camera angles.
  for i,(a,b) in enumerate(zip(profile,profile[1:]+profile[:1])):
-  rock_profile('RockFace'+str(i),[a,b,(0,5.7)],.008,65.012,'waterfallshade' if i%3==0 else 'waterfallrock')
- cap=profile[1:7]+[(x,y-.17) for x,y in reversed(profile[1:7])]
- rock_profile('BluffTurf',cap,8.7,65.01,'waterfallgrass')
- box('DryPassage',(62,-.08,63),(18,.16,4),'rock',parent=parent)
+  rock_profile('RockFace'+str(i),[a,b,(0,5.7)],.008,65.06,'waterfallshade' if i%3==0 else 'waterfallrock')
+ # A separate turf slab sits wholly above the roof, rather than sharing its
+ # sloped top faces. Limit it to the roof so it cannot cut through the back wall.
+ cap=[(x,y+.10) for x,y in profile[1:7]]+[(x,y+.04) for x,y in reversed(profile[1:7])]
+ rock_profile('BluffTurf',cap,4,65,'waterfallgrass')
+ box('DryPassage',(62,-.06,63),(18,.16,4),'rock',parent=parent)
  
  # Low-poly shoulders soften the bluff silhouette; keep entrance lanes clear.
  for i,(x,z,h,r) in enumerate([(52,58,6,3),(72,58,7,3),(56,57,8,3),(68,57,8.5,3)]):
@@ -79,15 +81,16 @@ def build(g):
   # Inscribed support stays inside the faceted stone and outside the corridor.
   box('ShoulderCore'+str(i),(x,h/2,z),(r,h,r),'waterfallrock',parent=parent)
  # Stream and curtain stand in front of the sheltered ledge, without a collider.
- box('StreamBed',(62,8.55,62),(3.8,.3,6),'waterfallrock',parent=parent)
- box('UpperStream',(62,8.725,62),(3.4,.04,6),'water',solid=False,parent=parent)
+ box('StreamBed',(62,8.67,62),(3.8,.3,6),'waterfallrock',parent=parent)
+ box('UpperStream',(62,8.845,62),(3.4,.04,6),'water',solid=False,parent=parent)
  water=sub('StandardMaterial3D','transparency = 1\ncull_mode = 2\nalbedo_color = Color(0.43,0.78,0.80,0.62)\nroughness = 0.7')
  mesh=sub('QuadMesh','size = Vector2(4.8,8.6)')
  node('WaterCurtain','MeshInstance3D',parent,f'position = Vector3(62,4.5,66.1)\nmesh = {mesh}\nmaterial_override = {water}')
  disc('WaterfallPoolBank',(62,.03,70),6.3,3.5,'shore')
  disc('WaterfallPool',(62,.115,70),5.7,2.9,'water')
+ # Streaks occupy a separate plane and fall vertically, clear of the alpha sheet.
  streak=sub('BoxMesh','size = Vector3(0.10,0.85,0.045)')
- node('FallingWater','CPUParticles3D',parent,f'position = Vector3(62,8.6,66.15)\namount = 80\nlifetime = 1.1\nmesh = {streak}\nmaterial_override = {g["mats"]["wetlandfoam"]}\nemission_shape = 3\nemission_box_extents = Vector3(2.25,0.04,0.03)\ndirection = Vector3(0,-1,0)\nspread = 2.0\ngravity = Vector3(0,-9,0)\ninitial_velocity_min = 4.0\ninitial_velocity_max = 5.0')
+ node('FallingWater','CPUParticles3D',parent,f'position = Vector3(62,8.6,66.25)\namount = 80\nlifetime = 1.1\nmesh = {streak}\nmaterial_override = {g["mats"]["wetlandfoam"]}\nemission_shape = 3\nemission_box_extents = Vector3(2.25,0.04,0.03)\ndirection = Vector3(0,-1,0)\nspread = 0.0\ngravity = Vector3(0,-9,0)\ninitial_velocity_min = 4.0\ninitial_velocity_max = 5.0')
  foam=sub('SphereMesh','radius = 0.09\nheight = 0.18\nradial_segments = 6\nrings = 3')
  node('Splash','CPUParticles3D',parent,f'position = Vector3(62,0.25,66.5)\namount = 45\nlifetime = 0.65\nmesh = {foam}\nmaterial_override = {g["mats"]["wetlandfoam"]}\nemission_shape = 3\nemission_box_extents = Vector3(2.3,0.03,0.20)\ndirection = Vector3(0,1,0)\nspread = 40.0\ngravity = Vector3(0,-5,0)\ninitial_velocity_min = 1.0\ninitial_velocity_max = 2.0')
  # Native water volumes make both pools water habitat without extra spawners.
@@ -105,7 +108,7 @@ def build(g):
    angle=j*2.4;h=.45+(j%4)*.13
    node(f'WaterGardenReed{i}_{j}','MeshInstance3D',parent,f'position = Vector3({x+.32*math.cos(angle)},{h/2},{z+.32*math.sin(angle)})\nscale = Vector3(1,{h},1)\nrotation_degrees = Vector3({8*math.cos(angle)},0,{8*math.sin(angle)})\nmesh = {reedmesh}\nmaterial_override = {g["mats"]["leaf"]}')
  for i,(x,z) in enumerate([(27,56),(32,57),(60,63),(64,63)]):
-  y=8.72 if x>50 else .03
+  y=8.82 if x>50 else .03
   prefab('WaterGardenFlowers'+str(i),'Decorations/Flowers',(x,y,z),(.06,.06,.06))
  for i,(x,z) in enumerate([(33,72),(48,69)]):
   box('FeederPost'+str(i),(x,1.1,z),(.2,2.2,.2),'arrivalwood',parent=parent)
