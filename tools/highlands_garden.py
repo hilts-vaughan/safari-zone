@@ -116,11 +116,14 @@ def build(g):
   bench_landing(g,'HighlandsBench'+str(i),[(x,0.67,z-.45+j*.28,3.6,0.22) for j in range(4)],(x,1.52,z-.65,3.6,0.12));landing+=5
  box('DryLog',(35,0.35,-22),(4,0.7,0.9),'arrivaldark',parent=parent);perch('Log',(35,0.71,-22),3.4,0.65)
  for i,(x,z) in enumerate(GROUND):prefab('HighlandsForaging'+str(i),'FunctionalObjects/HopGroundHangout',(x,0.06,z),(1.4,1,1.4))
+ from highlands_pavilion import build as build_pavilion
+ stats['pavilion']=build_pavilion(g)
  # Tall grass and flowers throughout lower meadow and broad terrace interiors.
  rng=random.Random(510226);grass=[];flowers=[]
  for ix in range(153):
   for iz in range(139):
    x=22+ix*.7;z=-108+iz*.7;p=(x,z);h=terrain_height(p)
+   if math.dist(p,(77,-48))<8 or any(math.dist(p,q)<3 for q in [(53,-43),(60,-46)]):continue
    if not contains(p) or not inside(p) or pond_contains(p,2) or path_distance(p)<3.6:continue
    if any(math.dist(p,q)<15 for q in FACILITIES.values()):continue
    if any(distance(p,(a[0],a[2]),(b[0],b[2]))<3 for line in [ROUTE,EAST_ROUTE,[(42,4,-68),(42,4,-76)]] for a,b in zip(line,line[1:])):continue
